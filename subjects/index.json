@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "subjects": [
+    {
+      "id": "khoa-hoc-du-lieu",
+      "title": "Khoa học dữ liệu",
+      "path": "khoa-hoc-du-lieu/"
+    }
+  ]
+}
