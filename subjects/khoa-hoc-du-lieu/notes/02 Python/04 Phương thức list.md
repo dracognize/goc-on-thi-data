@@ -59,7 +59,7 @@ print(listd)   # ['apple', 'watermelon']
 
 Nguồn tr. 71, tr. 72.
 
-
+[![C2 04 Phương thức list – bảng 1](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2004%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2004%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Làm gì |
@@ -87,7 +87,7 @@ list2.extend(tuple);  print(list2)  # ['mango', 'pineapple', 'papaya', 'kiwi', '
 
 Nguồn tr. 73, tr. 74, tr. 75.
 
-
+[![C2 04 Phương thức list – bảng 2](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2004%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2004%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách | Xóa theo | Ghi chú |
@@ -113,7 +113,7 @@ lista.remove(123)
 print(lista)   # ['xyz', 'zara', 'abc', 123] · chỉ xóa 123 đầu tiên
 ```
 
-
+[![Xóa phần tử trong list set dict](../../diagrams/02%20Python/X%C3%B3a%20ph%E1%BA%A7n%20t%E1%BB%AD%20trong%20list%20set%20dict.excalidraw.svg)](../../diagrams/02%20Python/X%C3%B3a%20ph%E1%BA%A7n%20t%E1%BB%AD%20trong%20list%20set%20dict.excalidraw.md)
 
 ## 5. Sao chép danh sách
 
@@ -143,7 +143,7 @@ listb[1] = "orange"
 print(mylist)        # ['apple', 'banana', 'cherry']
 ```
 
-
+[![02 Tham chiếu và sao chép](../../diagrams/02%20Python/02%20Tham%20chi%E1%BA%BFu%20v%C3%A0%20sao%20ch%C3%A9p.excalidraw.svg)](../../diagrams/02%20Python/02%20Tham%20chi%E1%BA%BFu%20v%C3%A0%20sao%20ch%C3%A9p.excalidraw.md)
 
 > **info** Mở rộng: bản sao nông
 > **`copy()`**, **`list()`** và `a[:]` là **sao chép nông**: list ngoài mới, nhưng list con bên trong vẫn dùng chung. Xem trace ở .
@@ -188,7 +188,7 @@ print(list2 * 2)       # [123, 'john', 123, 'john']
 print(list1 + list2)   # ['abcd', 786, 2.23, 'john', 70.2, 123, 'john']
 ```
 
-
+[![C2 04 Phương thức list – bảng 3](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2004%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2004%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàm/phương thức | Trả về | Ghi chú |
@@ -265,7 +265,7 @@ for i in range(0, m):
 
 ## 9. Trace tham chiếu và giá trị trả về
 
-
+[![Bảng tra phương thức list](../../diagrams/02%20Python/B%E1%BA%A3ng%20tra%20ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tra%20ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20list.excalidraw.md)
 
 ```python
 a = [[1], [2]]

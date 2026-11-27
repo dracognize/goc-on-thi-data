@@ -18,7 +18,7 @@ Nguồn: tr. 59, tr. 60, tr. 61
 
 **Phân loại**: đầu ra là **nhãn (label) rời rạc**, không phải số liên tục. Mục tiêu: học cách gán nhãn đúng cho mẫu mới dựa trên dữ liệu đã biết.
 
-
+[![C8 04 Chương 08 - Logistic cây và rừng – bảng 1](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ví dụ slide | Đầu vào | Đầu ra | Loại |
@@ -203,7 +203,7 @@ Nguồn: tr. 84, tr. 85, tr. 86, tr. 87, tr. 88, tr. 89, tr. 90
 - Dự đoán: **mỗi cây bỏ một phiếu** cho một lớp; lớp nhiều phiếu nhất là kết quả.
 - Cách "**trí tuệ tập thể**" này làm mô hình **ổn định và chính xác hơn** một cây đơn lẻ.
 
-
+[![C8 04 Chương 08 - Logistic cây và rừng – bảng 2](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Điểm test | $\hat y$ (số đông) | Thực tế |
@@ -229,7 +229,7 @@ Accuracy: 1.00
 
 **Ba cây con (tr. 89–90)**, vẽ bằng vòng lặp qua `model_rf_cls.estimators_`:
 
-
+[![C8 04 Chương 08 - Logistic cây và rừng – bảng 3](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cây | Gốc | Gini gốc | samples (số mẫu **khác nhau**) | value (đếm có lặp) |
@@ -253,7 +253,7 @@ Mỗi cây một mẫu bootstrap khác nhau nên Gini gốc và ngưỡng khác 
 
 Nguồn: tr. 92, tr. 93
 
-
+[![C8 04 Chương 08 - Logistic cây và rừng – bảng 4](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2004%20Ch%C6%B0%C6%A1ng%2008%20-%20Logistic%20c%C3%A2y%20v%C3%A0%20r%E1%BB%ABng%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mô hình | Accuracy |

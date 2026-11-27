@@ -50,7 +50,7 @@ fig      # Jupyter hiển thị: <Figure size 640x480 with 0 Axes>
 
 Kích thước mặc định **6.4 × 4.8 inch** với dpi 100 → **640 × 480** điểm ảnh, chưa có Axes nào.
 
-
+[![C7 03 Chương 07 - Figure Axes và dữ liệu vẽ – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số **`plt.figure(...)`** | Ý nghĩa |
@@ -112,7 +112,7 @@ tr. 69 · tr. 70
 
 Tạo **Figure + lưới Axes trong một lệnh**, tiện hơn **`plt.figure()`** + **`add_subplot()`**.
 
-
+[![C7 03 Chương 07 - Figure Axes và dữ liệu vẽ – bảng 2](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Mặc định | Ý nghĩa |
@@ -131,7 +131,7 @@ Tạo **Figure + lưới Axes trong một lệnh**, tiện hơn **`plt.figure()`
 
 So sánh hai cách vẽ cùng lưới 2×3 (tr. 70):
 
-
+[![C7 03 Chương 07 - Figure Axes và dữ liệu vẽ – bảng 3](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | **`add_subplot`** (index từ 1) | *`subplots`* (chỉ số `[hàng, cột]` từ 0) |
@@ -141,7 +141,7 @@ So sánh hai cách vẽ cùng lưới 2×3 (tr. 70):
 > | **`fig.add_subplot(2,3,3).plot(x, np.tan(x))`** | `axes[0,2].plot(x, np.tan(x))` |
 > | **`fig.add_subplot(2,3,4).plot(x, np.cosh(x))`** | `axes[1,0].plot(x, np.cosh(x))` |
 
-
+[![Lưới subplot và chỉ số](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/L%C6%B0%E1%BB%9Bi%20subplot%20v%C3%A0%20ch%E1%BB%89%20s%E1%BB%91.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/L%C6%B0%E1%BB%9Bi%20subplot%20v%C3%A0%20ch%E1%BB%89%20s%E1%BB%91.excalidraw.md)
 
 Công thức đổi: với lưới `ncols` cột, ô *`index`* (từ 1) nằm ở `axes[(index-1)//ncols, (index-1)%ncols]`. Ví dụ index 4 trong lưới 2×3 → `axes[1, 0]`.
 
@@ -157,7 +157,7 @@ Công thức đổi: với lưới `ncols` cột, ô *`index`* (từ 1) nằm �
 
 tr. 71 · tr. 72 · tr. 73
 
-
+[![C7 03 Chương 07 - Figure Axes và dữ liệu vẽ – bảng 4](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2003%20Ch%C6%B0%C6%A1ng%2007%20-%20Figure%20Axes%20v%C3%A0%20d%E1%BB%AF%20li%E1%BB%87u%20v%E1%BA%BD%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |

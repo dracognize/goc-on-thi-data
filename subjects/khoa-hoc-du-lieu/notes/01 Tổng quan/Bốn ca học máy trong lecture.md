@@ -52,7 +52,7 @@ $$\text{Sales} = f(\text{TV}, \text{SocialMedia}, \text{Flyer}) + \epsilon$$
 
 Sales **liên tục** → **hồi quy**; bối cảnh hỗ trợ quyết định kinh tế → mô hình **có tham số**.
 
-
+[![C1 Bốn ca học máy trong lecture – bảng 1](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mô hình | Ưu điểm | Hạn chế |
@@ -128,7 +128,7 @@ Nguồn tr. 102, tr. 103. Mục đích: hiểu cấu trúc, quan hệ giữa bi�
 
 Thống kê đơn giản theo loài (trung bình ± độ lệch chuẩn, [min–max]) trên slide:
 
-
+[![C1 Bốn ca học máy trong lecture – bảng 2](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loài | Dài đài | Rộng đài | Dài cánh | Rộng cánh |
@@ -155,7 +155,7 @@ Với điểm mới:
 2. Chọn **k điểm gần nhất**.
 3. Gán **nhãn chiếm đa số** trong k điểm đó.
 
-
+[![C1 KNN bỏ phiếu](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20KNN%20b%E1%BB%8F%20phi%E1%BA%BFu.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20KNN%20b%E1%BB%8F%20phi%E1%BA%BFu.excalidraw.md)
 
 > **example** Tính tay với một đặc trưng (số tự đặt)
 > Hoa mới có số đo 2,9. Năm hoa đã biết:
@@ -247,7 +247,7 @@ Mục tiêu số → **hồi quy**; cần chính xác → có tham số hoặc p
 
 Ba chỉ số sai số hồi quy trên tập test (công thức là Mở rộng):
 
-
+[![C1 Bốn ca học máy trong lecture – bảng 3](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Chỉ số | Công thức | Đọc |
@@ -295,7 +295,7 @@ Nguồn tr. 116–tr. 118.
 
 Ngân hàng gọi điện mời **gửi tiết kiệm có kỳ hạn**. Ngân sách chỉ gọi được **2.000** trong **20.000** khách. Mục tiêu: chọn 2.000 người **có khả năng đồng ý cao nhất** để tối ưu **tỷ lệ chuyển đổi**.
 
-
+[![C1 Bốn ca học máy trong lecture – bảng 4](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%20B%E1%BB%91n%20ca%20h%E1%BB%8Dc%20m%C3%A1y%20trong%20lecture%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nhóm biến | Biến |
@@ -343,4 +343,4 @@ $$\frac{484}{2000} = 24{,}2\%, \qquad \frac{484}{186} \approx 2{,}6 \text{ lần
 
 Quảng cáo và giá nhà dự báo **số** (hồi quy). Iris dự đoán **một trong ba lớp**. Chiến dịch có nhãn **nhị phân**, dùng xác suất để **xếp hạng**. Với mọi ca, ghi rõ đơn vị quan sát, biến biết trước, mục tiêu, cách giữ tập kiểm tra và điều kiện quyết định.
 
-Áp dụng ở F106 Nhãn và loại bài toán, F103 Cấp độ phân tích. Nối sang chương 8.
+Áp dụng ở F106 Nhãn và loại bài toán, F103 Cấp độ phân tích. Nối sang [chương 8](../08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).

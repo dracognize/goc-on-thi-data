@@ -29,7 +29,7 @@ Ví dụ: $Q_1 = 10$, $Q_3 = 22$ → $IQR = 12$, hàng rào $[-8, 40]$. Nếu 38
 
 ## Matplotlib · hàm vẽ
 
-
+[![C7 04 Chương 07 - Công thức và cú pháp – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2004%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2004%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàm | Cú pháp | Ghi nhớ |
@@ -90,7 +90,7 @@ Chi tiết: [09 Chương 07 - Pandas và Seaborn](09%20Ch%C6%B0%C6%A1ng%2007%20-
 
 ## Bảng đầu vào nhỏ → kết quả (đã chạy)
 
-
+[![C7 04 Chương 07 - Công thức và cú pháp – bảng 2](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2004%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2004%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lệnh | Đầu vào | Kết quả |

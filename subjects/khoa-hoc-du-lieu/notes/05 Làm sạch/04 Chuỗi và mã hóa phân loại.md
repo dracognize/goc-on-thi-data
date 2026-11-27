@@ -20,14 +20,14 @@ Dữ liệu chuỗi (string data) chiếm phần lớn dữ liệu thực tế: 
 
 tr. 105
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 1](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Vấn đề | Ví dụ | Cách xử lý gợi ý |
 > | --- | --- | --- |
 > | Không nhất quán định dạng | `"iPhone"`, `"iphone"`, `"IPHONE"` | `.str.lower()` |
 > | Khoảng trắng thừa | `" Apple "`, `"Apple "` | `.str.strip()` |
-> | Ký tự đặc biệt | `"email@domain.com"`, `"phone: +84-123-456-789"` | `.str.replace`, regex |
+> | Ký tự đặc biệt | `"email@example.com"`, `"phone: +84-123-456-789"` | `.str.replace`, regex |
 > | Viết tắt khác nhau | `"Dr."`, `"Doctor"`, `"BS"` | **`.replace({...})`** / `map` |
 > | Lỗi chính tả | `"Compnay"` thay vì `"Company"` | Từ điển sửa lỗi |
 
@@ -63,7 +63,7 @@ sample_data['category'] = sample_data['category'].astype('category')
 print(sample_data.dtypes)
 ```
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 2](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cột | Trước | Sau | Lệnh |
@@ -180,7 +180,7 @@ tr. 119 · tr. 120
 
 **Regex** là ngôn ngữ **pattern matching** để tìm và thao tác chuỗi.
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 3](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Pattern | Mô tả | Ví dụ |
@@ -206,9 +206,9 @@ tr. 121 – tr. 126
 
 ```python
 df_regex = pd.DataFrame({'text': [
-    'Liên hệ: 0123-456-789 hoặc email: john@gmail.com',
+    'Liên hệ: 0123-456-789 hoặc email: john@example.com',
     'SDT: +84 98 765 4321, địa chỉ: 123 Lê Lợi, Q1, TP.HCM',
-    'Phone: (024) 3825-7863, email: info@company.vn',
+    'Phone: (024) 3825-7863, email: info@example.com',
     'Mobile: 0987654321, website: https://example.com',
     'Hotline: 1900-1234, fax: (028) 3829-5678']})
 phone_pattern = r'(\+?\d{1,3}[\s-]?\d{2,4}[\s-]?\d{2,4}[\s-]?\d{0,4}|\(\d{2,4}\)\s?\d{3,4}[-\s]?\d{3,4})'
@@ -220,14 +220,14 @@ df_regex['has_url'] = df_regex['text'].str.contains(url_pattern, regex=True)
 df_regex['url'] = df_regex['text'].str.extract(url_pattern, expand=False)
 ```
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 4](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàng | phone | email | has_url | url |
 > | --- | --- | --- | --- | --- |
-> | 0 | `0123-456-789` | `john@gmail.com` | False | NaN |
+> | 0 | `0123-456-789` | `john@example.com` | False | NaN |
 > | 1 | `+84 98 765 4321` | NaN | False | NaN |
-> | 2 | `(024) 3825-7863` | `info@company.vn` | False | NaN |
+> | 2 | `(024) 3825-7863` | `info@example.com` | False | NaN |
 > | 3 | `0987654321` | NaN | True | `https://example.com` |
 > | 4 | `1900-1234` | NaN | False | NaN |
 
@@ -274,7 +274,7 @@ tr. 129
 
 **Dữ liệu phân loại** (categorical data) có **số giá trị hữu hạn**, biểu diễn bằng nhãn hoặc tên.
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 5](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại | Đặc điểm | Ví dụ |
@@ -302,7 +302,7 @@ tr. 130 – tr. 133
 
 **`pd.Categorical(values, categories=None, ordered=False)`**
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 6](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -311,7 +311,7 @@ tr. 130 – tr. 133
 > | *`categories`* | Danh sách giá trị hợp lệ |
 > | *`ordered`* | `True` nếu có thứ tự logic (ordinal) |
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 7](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thuộc tính / phương thức | Ý nghĩa |
@@ -357,7 +357,7 @@ tr. 134 – tr. 138
 
 **Label Encoding** chuyển dữ liệu phân loại thành **số nguyên tuần tự**. Ví dụ slide: Team A, A, B, B, B, B, C, C → 0, 0, 1, 1, 1, 1, 2, 2 (cột Points giữ nguyên).
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 8](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ưu điểm | Nhược điểm |
@@ -406,7 +406,7 @@ tr. 139 – tr. 145
 
 **One-Hot Encoding** tạo **cột nhị phân** cho mỗi category. Ví dụ slide: Team → `Team_A`, `Team_B`, `Team_C`. Hàng Team A có `1, 0, 0`.
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 9](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ưu điểm | Nhược điểm |
@@ -418,7 +418,7 @@ tr. 139 – tr. 145
 
 **Khi nào dùng:** **nominal** · ít category (**< 10–15** giá trị) · thuật toán **tuyến tính** (Linear/Logistic Regression, SVM) · **Neural Networks**.
 
-
+[![Label hay One-hot](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/Label%20hay%20One-hot.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/Label%20hay%20One-hot.excalidraw.md)
 
 ### Cách 1: `pd.get_dummies()`
 
@@ -469,7 +469,7 @@ print(df_onehot_sklearn)
 
 **Đa cộng tuyến** (multicollinearity): trong hồi quy tuyến tính, các biến độc lập có quan hệ tuyến tính mạnh với nhau. Ví dụ giá nhà theo **diện tích** và **số phòng ngủ**: nhà rộng thường nhiều phòng. Với one-hot đủ k cột, cột cuối luôn = 1 − tổng các cột kia, nên bỏ một cột (*`drop='first'`* hoặc **`pd.get_dummies(..., drop_first=True)`**).
 
-
+[![C5 04 Chuỗi và mã hóa phân loại – bảng 10](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2004%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | **`pd.get_dummies`** | **`OneHotEncoder`** |
@@ -491,7 +491,7 @@ print(df_onehot_sklearn)
 - F510 Kiểu dữ liệu cột và chuyển đổi
 - F508 Mã hóa biến phân loại
 - F512 Phân loại biến và kiểu dữ liệu thống kê
-- Bài mẫu: Danh mục và mã hóa giá trị thiếu
+- Bài mẫu: [Danh mục và mã hóa giá trị thiếu](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch%C6%B0%C6%A1ng%205%20-%20Danh%20m%E1%BB%A5c%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20gi%C3%A1%20tr%E1%BB%8B%20thi%E1%BA%BFu.md)
 - Chuẩn hóa chuỗi khóa trước khi [merge](../06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/03%20Merge%20concat%20v%C3%A0%20combine_first.md).
 
-Mục lục chương 5 · Trước: [03 Chuẩn hóa dữ liệu](03%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u.md) · Tiếp: [05 Công thức và cú pháp](05%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p.md)
+[Mục lục chương 5](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Trước: [03 Chuẩn hóa dữ liệu](03%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u.md) · Tiếp: [05 Công thức và cú pháp](05%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p.md)

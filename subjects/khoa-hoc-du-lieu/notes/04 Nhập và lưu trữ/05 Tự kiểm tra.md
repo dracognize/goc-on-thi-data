@@ -71,4 +71,4 @@
 
 Sau lượt đầu, thay dữ kiện trong một câu và giải lại từ đầu. Ôn quy tắc trong [04 Công thức và cú pháp](04%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p.md).
 
-Mục lục chương 4
+[Mục lục chương 4](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

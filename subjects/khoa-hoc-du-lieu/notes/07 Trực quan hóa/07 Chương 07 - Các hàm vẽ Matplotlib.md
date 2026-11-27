@@ -29,7 +29,7 @@ plt.plot([x], y, [fmt], [x2], y2, [fmt2], ..., **kwargs)   # nhiều đường t
 
 tr. 76 · tr. 77 · tr. 78
 
-
+[![C7 07 Chương 07 - Các hàm vẽ Matplotlib – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thuộc tính | Tên đầy đủ | Viết tắt | Giá trị ví dụ |
@@ -51,7 +51,7 @@ tr. 79 · tr. 80 · tr. 81
 
 Cách viết ngắn ghép **màu + marker + kiểu đường** vào một chuỗi.
 
-
+[![C7 07 Chương 07 - Các hàm vẽ Matplotlib – bảng 2](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | [color] | [marker] | [line] |
@@ -61,7 +61,7 @@ Cách viết ngắn ghép **màu + marker + kiểu đường** vào một chuỗ
 > | `k` black · `w` white | `*` sao · `.` chấm · `p` ngũ giác · *`s`* vuông | `-.` gạch chấm |
 > | `#rrggbb` (dùng qua `color=`) | ... | `:` chấm chấm |
 
-
+[![Giải mã format string](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/Gi%E1%BA%A3i%20m%C3%A3%20format%20string.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/Gi%E1%BA%A3i%20m%C3%A3%20format%20string.excalidraw.md)
 
 > **example** Ví dụ · Đọc `'ro--'` từng ký tự
 > 1. `r` → màu đỏ.
@@ -135,7 +135,7 @@ tr. 85 · tr. 86
 matplotlib.pyplot.barh(y, width, height=0.8, left=None, *, align='center', **kwargs)
 ```
 
-
+[![C7 07 Chương 07 - Các hàm vẽ Matplotlib – bảng 3](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | **`bar`** (dọc) | **`barh`** (ngang) |
@@ -208,7 +208,7 @@ matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None, norm=Non
     plotnonfinite=False, data=None, **kwargs)
 ```
 
-
+[![C7 07 Chương 07 - Các hàm vẽ Matplotlib – bảng 4](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2007%20Ch%C6%B0%C6%A1ng%2007%20-%20C%C3%A1c%20h%C3%A0m%20v%E1%BA%BD%20Matplotlib%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |

@@ -77,4 +77,4 @@ assert ledger["tien"].sum() == 46
 > **question** Khi ước lượng tổng doanh số sau merge cần kiểm tra gì?
 > Đếm dòng theo khóa trước và sau. Khóa trùng cả hai phía có thể nhân số dòng. Tính lại tổng và so với mức dự kiến trước khi báo cáo.
 
-Lec 6 · Tham số concat · Bài toán tổng hợp đại lý · Về mục lục Lec 6
+Lec 6 · Tham số concat · Bài toán tổng hợp đại lý · [Về mục lục Lec 6](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

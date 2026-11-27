@@ -3,13 +3,13 @@
 > **abstract** Tóm tắt
 > Bảng tra cuối chương. Trước khi gọi hàm: nhận diện **nguồn** (tệp, chuỗi, URL, CSDL) và **định dạng**. Sau khi gọi: kiểm tra **kiểu trả về** (DataFrame, list, dict, str, TextFileReader).
 
-
+[![Chọn hàm đọc theo nguồn dữ liệu](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/Ch%E1%BB%8Dn%20h%C3%A0m%20%C4%91%E1%BB%8Dc%20theo%20ngu%E1%BB%93n%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/Ch%E1%BB%8Dn%20h%C3%A0m%20%C4%91%E1%BB%8Dc%20theo%20ngu%E1%BB%93n%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.md)
 
 ## 1. Các hàm đọc phổ biến trong pandas
 
 Nguồn tr. 119.
 
-
+[![C4 04 Công thức và cú pháp – bảng 1](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2004%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2004%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàm | Mô tả |
@@ -36,7 +36,7 @@ Nguồn tr. 119.
 
 ## 2. Kiểu trả về — câu thi hay hỏi
 
-
+[![C4 04 Công thức và cú pháp – bảng 2](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2004%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2004%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lệnh | Trả về |
@@ -82,4 +82,4 @@ Nguồn tr. 119.
 - Số phần khi đọc theo chunk: $\lceil N / \text{chunksize} \rceil$ (N = số dòng dữ liệu).
 - Số dòng còn sau *`skiprows=k`* (số nguyên) và có tiêu đề: $N_{\text{tệp}} - k - 1$.
 
-Mục lục chương 4 · Thẻ nhớ: Thẻ nhớ chương 4
+[Mục lục chương 4](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Thẻ nhớ: Thẻ nhớ chương 4

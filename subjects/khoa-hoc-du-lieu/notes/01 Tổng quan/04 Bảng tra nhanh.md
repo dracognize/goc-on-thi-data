@@ -49,7 +49,7 @@ Dùng bảng khi tự hỏi “dữ liệu đến từ đâu, cần làm gì, k�
 
 ## Số cần nhớ
 
-
+[![C1 04 Bảng tra nhanh – bảng 1](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2004%20B%E1%BA%A3ng%20tra%20nhanh%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2004%20B%E1%BA%A3ng%20tra%20nhanh%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Số | Ý nghĩa |
@@ -62,4 +62,4 @@ Dùng bảng khi tự hỏi “dữ liệu đến từ đâu, cần làm gì, k�
 > | MAE ≈ 27,88; R² ≈ 0,46–0,47 | Ca giá nhà |
 > | 2.000/20.000; 9,3%; 186 → 484 (24,2%) | Ca ngân hàng |
 
-Chi tiết ở Mục lục chương 1.
+Chi tiết ở [Mục lục chương 1](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).

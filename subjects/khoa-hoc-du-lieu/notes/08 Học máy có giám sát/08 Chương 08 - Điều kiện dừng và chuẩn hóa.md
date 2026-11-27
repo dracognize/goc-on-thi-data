@@ -12,7 +12,7 @@ Nguồn: tr. 95
 
 "Học" không kéo dài mãi. Mỗi họ mô hình có điều kiện dừng riêng:
 
-
+[![C8 08 Chương 08 - Điều kiện dừng và chuẩn h – bảng 1](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2008%20Ch%C6%B0%C6%A1ng%2008%20-%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20d%E1%BB%ABng%20v%C3%A0%20chu%E1%BA%A9n%20h%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2008%20Ch%C6%B0%C6%A1ng%2008%20-%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20d%E1%BB%ABng%20v%C3%A0%20chu%E1%BA%A9n%20h%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mô hình | Khi nào dừng | Tham số liên quan |
@@ -21,7 +21,7 @@ Nguồn: tr. 95
 > | Decision Tree | Một nút **không thể chia nhỏ hơn**, khi: (1) mọi điểm trong nút **cùng một lớp** (nút thuần); (2) đạt **độ sâu tối đa**; (3) số mẫu trong nút **quá nhỏ** để chia tiếp | *`max_depth`*, `min_samples_split` |
 > | KNN | **Không có** điều kiện dừng: là "mô hình học lười", chỉ **lưu trữ toàn bộ dữ liệu** | (*`n_neighbors`* chỉ dùng lúc dự đoán) |
 
-
+[![Chọn chuẩn hóa và điều kiện dừng](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/Ch%E1%BB%8Dn%20chu%E1%BA%A9n%20h%C3%B3a%20v%C3%A0%20%C4%91i%E1%BB%81u%20ki%E1%BB%87n%20d%E1%BB%ABng.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/Ch%E1%BB%8Dn%20chu%E1%BA%A9n%20h%C3%B3a%20v%C3%A0%20%C4%91i%E1%BB%81u%20ki%E1%BB%87n%20d%E1%BB%ABng.excalidraw.md)
 
 > **warning** Dễ nhầm
 > - *`n_estimators`* của rừng là **số cây**, không phải điều kiện dừng của mỗi cây. Mỗi cây trong rừng vẫn dừng theo *`max_depth`*, `min_samples_split`…
@@ -59,7 +59,7 @@ Nguồn: tr. 96, tr. 97
 > print(np.sqrt(((sc.transform(Xs) - sc.transform(q))**2).sum(1)).round(2))  # [2.95 1.7  1.02]
 > ```
 
-
+[![C8 08 Chương 08 - Điều kiện dừng và chuẩn h – bảng 2](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2008%20Ch%C6%B0%C6%A1ng%2008%20-%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20d%E1%BB%ABng%20v%C3%A0%20chu%E1%BA%A9n%20h%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2008%20Ch%C6%B0%C6%A1ng%2008%20-%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20d%E1%BB%ABng%20v%C3%A0%20chu%E1%BA%A9n%20h%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | Mô hình | Lý do |

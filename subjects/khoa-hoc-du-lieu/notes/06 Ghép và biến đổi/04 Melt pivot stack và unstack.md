@@ -22,7 +22,7 @@ flowchart LR
 
 Nguồn tr. 85, tr. 86.
 
-
+[![C6 04 Melt pivot stack và unstack – bảng 1](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | **Wide** (rộng) | **Long** (dài) |
@@ -58,7 +58,7 @@ DataFrame.melt(id_vars=None, value_vars=None, var_name=None,
                value_name='value', col_level=None, ignore_index=True)
 ```
 
-
+[![C6 04 Melt pivot stack và unstack – bảng 2](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -141,7 +141,7 @@ Nguồn tr. 94 – tr. 98.
 DataFrame.pivot(index=None, columns=None, values=None)
 ```
 
-
+[![C6 04 Melt pivot stack và unstack – bảng 3](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Trở thành |
@@ -220,7 +220,7 @@ Khác bảng gốc: `City` giờ là **index** (không còn là cột) và trụ
 
 ## 4. So sánh melt và pivot
 
-
+[![C6 04 Melt pivot stack và unstack – bảng 4](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2004%20Melt%20pivot%20stack%20v%C3%A0%20unstack%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | **`melt`** | **`pivot`** |
@@ -309,7 +309,7 @@ Theo dấu cấp:
 2. **`stack(level=1)`**: cấp 1 của cột xuống làm cấp **trong cùng** của hàng. Hàng `[Name, môn]`, cột `[Score]`. Shape `(4, 1)`.
 3. **`unstack(level=1)`**: cấp 1 của hàng (môn) lên lại cột. Trở về shape `(2, 2)`.
 
-
+[![Stack và unstack theo dấu cấp](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Stack%20v%C3%A0%20unstack%20theo%20d%E1%BA%A5u%20c%E1%BA%A5p.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Stack%20v%C3%A0%20unstack%20theo%20d%E1%BA%A5u%20c%E1%BA%A5p.excalidraw.md)
 
 > **info** Mở rộng: `future_stack=True` và `fill_value`
 > - Slide dùng *`future_stack=True`* (pandas ≥ 2.1). Cách mới **không bỏ NaN** và không nhận *`dropna`*. Ví dụ bảng `A: Q1=10, Q2=30; B: Q1=NaN, Q2=40`: **`stack()`** kiểu cũ cho 3 dòng, **`stack(future_stack=True)`** cho 4 dòng (có `B, Q1 = NaN`).
@@ -333,6 +333,6 @@ Theo dấu cấp:
 
 **Áp dụng ở.** F605 Đổi wide và long · F604 Stack và unstack.
 
-**Cần biết trước.** [MultiIndex](01%20MultiIndex.md) để theo dõi cấp nhãn. Bảng long dùng tiếp ở Trực quan hóa.
+**Cần biết trước.** [MultiIndex](01%20MultiIndex.md) để theo dõi cấp nhãn. Bảng long dùng tiếp ở [Trực quan hóa](../07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).
 
-Mục lục chương 6 · Nguồn Lec 6, tr. 84.
+[Mục lục chương 6](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Nguồn Lec 6, tr. 84.

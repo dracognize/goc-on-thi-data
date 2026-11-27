@@ -31,7 +31,7 @@ tr. 5 · tr. 6 · tr. 7
 
 **Thuật ngữ.** Khi thu thập và lưu trữ, không phải giá trị nào cũng được ghi đủ. Ô có thể trống hoặc mang ký hiệu đặc biệt `NA`, `NaN`, `NULL`, chuỗi rỗng `""`. Đó là **dữ liệu thiếu** (missing data).
 
-
+[![C5 01 Thiếu và trùng – bảng 1](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Dạng | Tên đầy đủ | Xác suất thiếu phụ thuộc vào | Ví dụ trong slide |
@@ -47,7 +47,7 @@ tr. 5 · tr. 6 · tr. 7
 
 **Biểu diễn trong pandas** (tr. 7):
 
-
+[![C5 01 Thiếu và trùng – bảng 2](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ký hiệu | Dùng cho | Ghi chú |
@@ -67,7 +67,7 @@ tr. 5 · tr. 6 · tr. 7
 
 tr. 8
 
-
+[![C5 01 Thiếu và trùng – bảng 3](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nguyên nhân | Ví dụ |
@@ -117,7 +117,7 @@ Nhìn nhanh: Tuổi thiếu 2 (Bình, Eva), Lương thiếu 1 (Chi), Phòng ban 
 
 tr. 11 – tr. 16
 
-
+[![C5 01 Thiếu và trùng – bảng 4](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Mô tả | Trả về |
@@ -177,7 +177,7 @@ tr. 17
 
 Ba cách chính:
 
-
+[![C5 01 Thiếu và trùng – bảng 5](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách | Ý tưởng |
@@ -193,7 +193,7 @@ Chọn phương pháp:
 - Thiếu có pattern: phân tích nguyên nhân, xử lý cẩn thận.
 - Dữ liệu quan trọng: dùng kỹ thuật dự đoán phức tạp hơn.
 
-
+[![Cây chọn cách xử lý thiếu](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/C%C3%A2y%20ch%E1%BB%8Dn%20c%C3%A1ch%20x%E1%BB%AD%20l%C3%BD%20thi%E1%BA%BFu.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/C%C3%A2y%20ch%E1%BB%8Dn%20c%C3%A1ch%20x%E1%BB%AD%20l%C3%BD%20thi%E1%BA%BFu.excalidraw.md)
 
 ### Phương pháp 1: Loại bỏ bằng dropna
 
@@ -203,7 +203,7 @@ tr. 18 – tr. 23
 df.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
 ```
 
-
+[![C5 01 Thiếu và trùng – bảng 6](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Giá trị | Ý nghĩa |
@@ -230,7 +230,7 @@ print(df_drop_subset.index.tolist())
 [0, 3]
 ```
 
-
+[![C5 01 Thiếu và trùng – bảng 7](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lệnh | Còn lại | Vì sao |
@@ -241,7 +241,7 @@ print(df_drop_subset.index.tolist())
 > | **`dropna(subset=["Tuổi","Phòng ban"])`** | Hàng 0, 3 | Bình, Eva thiếu Tuổi. Chi thiếu Phòng ban |
 > | **`dropna(thresh=3)`** (Mở rộng) | Hàng 0, 1, 3, 4 | Chi chỉ có 2 ô có dữ liệu (Tên, Tuổi) nên bị bỏ |
 
-
+[![Theo dấu dropna trên df_missing](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/Theo%20d%E1%BA%A5u%20dropna%20tr%C3%AAn%20df_missing.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/Theo%20d%E1%BA%A5u%20dropna%20tr%C3%AAn%20df_missing.excalidraw.md)
 
 > **warning** Dễ nhầm
 > - **`dropna()`** **không sửa bảng gốc** nếu không gán lại hoặc không đặt *`inplace=True`*.
@@ -255,7 +255,7 @@ print(df_drop_subset.index.tolist())
 
 tr. 24
 
-
+[![C5 01 Thiếu và trùng – bảng 8](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Chiến lược | Ứng dụng | Ví dụ |
@@ -301,7 +301,7 @@ Lương trung bình: 17,750,000
 IT
 ```
 
-
+[![C5 01 Thiếu và trùng – bảng 9](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách điền | Ô Bình/Eva (Tuổi) | Ô Chi (Lương) | Ô Chi (Phòng ban) |
@@ -322,7 +322,7 @@ df_ffill = df.fillna(method="ffill")   # lấy giá trị NGAY TRƯỚC (phía t
 df_bfill = df.fillna(method="bfill")   # lấy giá trị NGAY SAU (phía dưới)
 ```
 
-
+[![C5 01 Thiếu và trùng – bảng 10](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ô thiếu | Giá trị trên | Giá trị dưới | ffill | bfill |
@@ -351,7 +351,7 @@ tr. 31 – tr. 66. Xem đầy đủ trong [Thực hành thêm - Điền dữ li�
 
 tr. 67 · tr. 68
 
-
+[![C5 01 Thiếu và trùng – bảng 11](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2011.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2011.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương pháp | Độ phức tạp | Thời gian | Độ chính xác | Phù hợp với |
@@ -362,7 +362,7 @@ tr. 67 · tr. 68
 > | Random Forest | Cao | Chậm | Cao | Dữ liệu có quan hệ phức tạp |
 > | KNN Imputation | Trung bình | Trung bình | Cao | Dữ liệu có local patterns |
 
-
+[![C5 01 Thiếu và trùng – bảng 12](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2012.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2012.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại dữ liệu | Tình huống | Phương pháp |
@@ -391,7 +391,7 @@ tr. 71 · tr. 72 · tr. 73
 
 **Thuật ngữ.** **Dữ liệu trùng lặp** (duplicate data) là các hàng giống hệt nhau trên **tất cả** hoặc **một số cột** nhất định.
 
-
+[![C5 01 Thiếu và trùng – bảng 13](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2013.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2013.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nguyên nhân | Ví dụ |
@@ -401,7 +401,7 @@ tr. 71 · tr. 72 · tr. 73
 > | Gộp dữ liệu | Kết hợp nhiều nguồn chồng chéo |
 > | Lỗi thu thập | Cảm biến ghi lặp |
 
-
+[![C5 01 Thiếu và trùng – bảng 14](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2014.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2014.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tác động | Giải thích |
@@ -424,7 +424,7 @@ Hàng 3 giống hệt hàng 0 trên cả ba cột.
 
 tr. 74 · tr. 75 · tr. 76
 
-
+[![C5 01 Thiếu và trùng – bảng 15](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2015.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2015.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Mô tả | Trả về |
@@ -459,7 +459,7 @@ tr. 77 · tr. 78 · tr. 79
 DataFrame.drop_duplicates(subset=None, keep='first', inplace=False, ignore_index=False)
 ```
 
-
+[![C5 01 Thiếu và trùng – bảng 16](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2016.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2016.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Mặc định | Ý nghĩa |
@@ -486,7 +486,7 @@ print(duplicate_data.drop_duplicates(keep=False).index.tolist())
 [1, 2]
 ```
 
-
+[![C5 01 Thiếu và trùng – bảng 17](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2017.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2001%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng%20%E2%80%93%20b%E1%BA%A3ng%2017.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | *`keep`* | Cờ **`duplicated`** | Hàng còn sau **`drop_duplicates`** |
@@ -495,7 +495,7 @@ print(duplicate_data.drop_duplicates(keep=False).index.tolist())
 > | `'last'` | `[T, F, F, F]` | 1, 2, 3 |
 > | `False` | `[T, F, F, T]` | 1, 2 (mất cả hai Alice) |
 
-
+[![Theo dấu hàng thiếu và trùng](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/Theo%20d%E1%BA%A5u%20h%C3%A0ng%20thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/Theo%20d%E1%BA%A5u%20h%C3%A0ng%20thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.excalidraw.md)
 
 > **example** Ví dụ dùng `subset` (Mở rộng)
 > Bảng đơn hàng có hai dòng cùng `order_id` nhưng khác sản phẩm. Nếu *`subset=['order_id']`*, một dòng hợp lệ bị xóa. Khóa đúng là `['order_id', 'product_id']`. Với *`keep='last'`* để giữ bản mới nhất, sắp xếp theo thời gian trước.
@@ -518,4 +518,4 @@ print(duplicate_data.drop_duplicates(keep=False).index.tolist())
 
 Cần biết trước [CSV và schema](../04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/01%20CSV%20v%C3%A0%20schema.md). Ôn nhanh bằng Thẻ nhớ chương 5.
 
-Mục lục chương 5 · Tiếp: [Thực hành thêm - Điền dữ liệu bằng mô hình](Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%ACnh.md)
+[Mục lục chương 5](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Tiếp: [Thực hành thêm - Điền dữ liệu bằng mô hình](Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%ACnh.md)

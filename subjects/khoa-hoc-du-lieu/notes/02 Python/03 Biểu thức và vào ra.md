@@ -55,7 +55,7 @@ $$a = b \cdot (a \,//\, b) + a \,\%\, b$$
 
 Nguồn tr. 16.
 
-
+[![C2 03 Biểu thức và vào ra – bảng 1](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Toán tử | Viết tắt của |
@@ -71,7 +71,7 @@ Nguồn tr. 16.
 
 **Trace ví dụ của slide** với `a = 10`, `b = 5`:
 
-
+[![C2 03 Biểu thức và vào ra – bảng 2](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lệnh | Tính | *`b`* sau lệnh | In ra |
@@ -108,7 +108,7 @@ print(1 <= 1, 1 <= 2)   # True True
 
 Nguồn tr. 18.
 
-
+[![C2 03 Biểu thức và vào ra – bảng 3](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Toán tử | Ý nghĩa | Ví dụ slide (a = 10, b = 20) |
@@ -143,7 +143,7 @@ print(x is not y)   # True  · x, y khác đối tượng dù cùng nội dung
 print(x != y)       # False · nội dung bằng nhau
 ```
 
-
+[![C2 03 Biểu thức và vào ra – bảng 4](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | So sánh | `==` (giá trị) | `is` (danh tính) |
@@ -157,7 +157,7 @@ Nguồn tr. 20, tr. 21, tr. 22.
 
 Làm việc trên từng **bit** của số nguyên. Với `a = 60 = 0011 1100`, `b = 13 = 0000 1101`:
 
-
+[![C2 03 Biểu thức và vào ra – bảng 5](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phép | Quy tắc | Kết quả nhị phân | Thập phân |
@@ -218,7 +218,7 @@ Nguồn tr. 25, tr. 26, tr. 27.
 print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 ```
 
-
+[![C2 03 Biểu thức và vào ra – bảng 6](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa | Mặc định |
@@ -266,7 +266,7 @@ print('Hello {name}, {greeting}'.format(greeting='Good Morning', name='John'))
 # Hello John, Good Morning
 ```
 
-
+[![C2 03 Biểu thức và vào ra – bảng 7](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2003%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách viết | Lấy giá trị nào |
@@ -325,7 +325,7 @@ x = int(input())     # gõ 7   → 7, <class 'int'>
 x = float(input())   # gõ 2.5 → 2.5, <class 'float'>
 ```
 
-
+[![Từ dữ liệu nhập đến kết quả](../../diagrams/02%20Python/T%E1%BB%AB%20d%E1%BB%AF%20li%E1%BB%87u%20nh%E1%BA%ADp%20%C4%91%E1%BA%BFn%20k%E1%BA%BFt%20qu%E1%BA%A3.excalidraw.svg)](../../diagrams/02%20Python/T%E1%BB%AB%20d%E1%BB%AF%20li%E1%BB%87u%20nh%E1%BA%ADp%20%C4%91%E1%BA%BFn%20k%E1%BA%BFt%20qu%E1%BA%A3.excalidraw.md)
 
 **Nhập bool.** **`bool(input())`** không dùng được (mọi chuỗi khác rỗng đều `True`). Slide tự viết hàm:
 

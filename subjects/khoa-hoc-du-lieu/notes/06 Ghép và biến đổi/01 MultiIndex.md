@@ -27,7 +27,7 @@ Nguồn tr. 6 – tr. 8.
 
 ### Thuật ngữ
 
-
+[![C6 01 MultiIndex – bảng 1](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thuật ngữ | Nghĩa | Ví dụ |
@@ -84,7 +84,7 @@ Nguồn tr. 11, tr. 12.
 DataFrame.set_index(keys, drop=True, append=False, inplace=False, verify_integrity=False)
 ```
 
-
+[![C6 01 MultiIndex – bảng 2](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Mặc định | `True` nghĩa là | `False` nghĩa là |
@@ -155,7 +155,7 @@ South  Online  2025 Q1            90
 
 Nguồn tr. 19.
 
-
+[![C6 01 MultiIndex – bảng 3](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thao tác | Mô tả | Hình dạng |
@@ -188,7 +188,7 @@ Nguồn tr. 21 – tr. 23.
 DataFrame.xs(key, axis=0, level=None, drop_level=True)
 ```
 
-
+[![C6 01 MultiIndex – bảng 4](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -246,7 +246,7 @@ Bước đọc:
 
 Slide tạo 1 000 000 hàng ngẫu nhiên rồi đo bằng `%time`:
 
-
+[![C6 01 MultiIndex – bảng 5](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách | Lệnh | Wall time trên slide |
@@ -323,7 +323,7 @@ DataFrame.sort_index(axis=0, level=None, ascending=True, inplace=False,
                      kind='quicksort', na_position='last', sort_remaining=True, key=None)
 ```
 
-
+[![C6 01 MultiIndex – bảng 6](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -382,7 +382,7 @@ DataFrame.groupby(by=None, axis=0, level=None, as_index=True, sort=True,
                   group_keys=True, observed=False, dropna=True)
 ```
 
-
+[![C6 01 MultiIndex – bảng 7](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2001%20MultiIndex%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -522,10 +522,10 @@ South  Online     NaN    NaN
 
 ## Sơ đồ ghi nhớ
 
-
+[![Stack và unstack theo dấu cấp](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Stack%20v%C3%A0%20unstack%20theo%20d%E1%BA%A5u%20c%E1%BA%A5p.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Stack%20v%C3%A0%20unstack%20theo%20d%E1%BA%A5u%20c%E1%BA%A5p.excalidraw.md)
 
 **Áp dụng ở.** F603 MultiIndex – chọn, đổi cấp và sắp xếp · F606 Gom nhóm · F604 Stack và unstack.
 
 **Đọc tiếp.** [stack/unstack chi tiết](04%20Melt%20pivot%20stack%20v%C3%A0%20unstack.md) · Thẻ nhớ chương 6 · [06 Tự kiểm tra](06%20T%E1%BB%B1%20ki%E1%BB%83m%20tra.md).
 
-Mục lục chương 6 · Nguồn Lec 6, tr. 4.
+[Mục lục chương 6](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Nguồn Lec 6, tr. 4.

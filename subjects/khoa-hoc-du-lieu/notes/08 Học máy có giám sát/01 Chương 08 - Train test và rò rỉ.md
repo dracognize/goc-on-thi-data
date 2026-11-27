@@ -45,7 +45,7 @@ mindmap
       Bot chơi game, xe tự lái
 ```
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 1](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại | Dữ liệu | Mô hình làm gì | Ví dụ slide |
@@ -60,7 +60,7 @@ mindmap
 
 ### Từ một bảng tới X và y
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 2](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nhà | Diện tích m² | Số phòng | Giá đã bán, triệu đồng |
@@ -78,7 +78,7 @@ mindmap
 
 Nguồn: tr. 10, tr. 11
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 3](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Dạng | Đầu ra | Ví dụ slide |
@@ -86,7 +86,7 @@ Nguồn: tr. 10, tr. 11
 > | **Hồi quy (Regression)** | Một **giá trị liên tục** | Nhiệt độ, giá cổ phiếu, lương, giá nhà |
 > | **Phân loại (Classification)** | Một **nhãn/danh mục rời rạc** | Chó/mèo, chẩn đoán bệnh, Đạt/Trượt |
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 4](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mô hình | Bài toán | Ý tưởng ngắn (tr. 11) |
@@ -109,7 +109,7 @@ Nguồn: tr. 13
 
 **Không bao giờ dùng toàn bộ dữ liệu để huấn luyện.** Chia thành:
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 5](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tập | Tỷ lệ thường dùng | Vai trò |
@@ -152,7 +152,7 @@ Nguồn: tr. 13
 >
 > **Rò rỉ dữ liệu (data leakage)**: quy trình học dùng thông tin lẽ ra chưa biết. Ví dụ train $x=[10,20,30]$ (mean 20), test $x=100$. Nếu chuẩn hóa bằng mean của cả 4 điểm (=40), thông tin test đã lọt vào train. Đúng: **chia trước**, **`fit`** scaler/imputer/encoder trên train, rồi **`transform`** test bằng thống kê train. Không dùng đặc trưng chỉ biết sau thời điểm dự đoán (ví dụ giá chốt sau giao dịch).
 
-
+[![02 Luồng train test](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/02%20Lu%E1%BB%93ng%20train%20test.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/02%20Lu%E1%BB%93ng%20train%20test.excalidraw.md)
 
 > **question** Tự kiểm tra: bạn thử nhiều $k$ rồi chọn $k$ có RMSE thấp nhất **trên test**. Sai ở đâu?
 > Test đã bị dùng để chọn cấu hình, nên không còn là "đề thi chưa thấy". Chọn $k$ trên validation/cross-validation, giữ test cho lần đánh giá cuối.
@@ -161,7 +161,7 @@ Nguồn: tr. 13
 
 Nguồn: tr. 15
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 6](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Bài toán | Chỉ số | Công thức | Ý nghĩa |
@@ -179,7 +179,7 @@ Các chỉ số nâng cao (MAE, R², Precision, Recall, F1, ROC–AUC) ở [05 C
 
 Nguồn: tr. 17
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 7](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | **Dưới khớp (Underfitting)** | **Quá khớp (Overfitting)** |
@@ -222,7 +222,7 @@ flowchart LR
     D -.lặp lại.-> B
 ```
 
-
+[![C8 01 Chương 08 - Train test và rò rỉ – bảng 8](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2001%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Bước | Việc chính |

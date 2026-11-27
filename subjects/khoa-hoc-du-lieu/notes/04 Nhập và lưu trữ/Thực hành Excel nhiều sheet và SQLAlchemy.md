@@ -6,7 +6,7 @@ Hai ví dụ này dùng dữ liệu tự tạo trên máy. Nguồn đối chiế
 
 Một tệp **`.xlsx`** là **workbook**, có thể chứa nhiều **worksheet** (trang tính). Mỗi trang có tên như `Hang` hoặc `Kho`. Một **engine** là bộ đọc hoặc ghi hiểu định dạng tệp. Ví dụ dùng *`engine="openpyxl"`* khi làm việc với **`.xlsx`**.
 
-
+[![C4 Thực hành Excel nhiều sheet và SQLAlchem – bảng 1](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%20Th%E1%BB%B1c%20h%C3%A0nh%20Excel%20nhi%E1%BB%81u%20sheet%20v%C3%A0%20SQLAlchem%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%20Th%E1%BB%B1c%20h%C3%A0nh%20Excel%20nhi%E1%BB%81u%20sheet%20v%C3%A0%20SQLAlchem%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Việc cần làm | API | Đầu ra hoặc tác động |

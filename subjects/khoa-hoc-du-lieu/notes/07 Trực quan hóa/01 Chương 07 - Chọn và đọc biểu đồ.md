@@ -13,7 +13,7 @@
 >
 > Slide 24 còn liệt kê **chuỗi thời gian (Time Series)** là một nhóm riêng. tr. 23 · tr. 24
 
-
+[![02 Chọn biểu đồ](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/02%20Ch%E1%BB%8Dn%20bi%E1%BB%83u%20%C4%91%E1%BB%93.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/02%20Ch%E1%BB%8Dn%20bi%E1%BB%83u%20%C4%91%E1%BB%93.excalidraw.md)
 
 ```mermaid
 flowchart TD
@@ -29,7 +29,7 @@ flowchart TD
 
 Một **quan sát** là đối tượng ta đo, ví dụ một ngày bán hàng. **Biến** là thuộc tính ghi lại cho mỗi quan sát. **Kiểu biến** quyết định phép so sánh có nghĩa.
 
-
+[![C7 01 Chương 07 - Chọn và đọc biểu đồ – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Kiểu biến | Ví dụ | Cách đọc |
@@ -58,7 +58,7 @@ Câu hỏi trả lời: giá trị nào xuất hiện nhiều nhất · lệch t
 
 **Khi nào dùng:** hiểu đặc điểm **một biến** (doanh thu, tuổi, KPI) · **so sánh phân phối giữa nhóm** (nam/nữ, quý 1/quý 2) · **khám phá trước khi mô hình hóa**.
 
-
+[![C7 01 Chương 07 - Chọn và đọc biểu đồ – bảng 2](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Biểu đồ | Cách làm | Ghi nhớ |
@@ -99,7 +99,7 @@ tr. 30 · tr. 31 · tr. 32
 
 Tạo từ **năm đại lượng**, chia dữ liệu thành 4 phần, mỗi phần khoảng **25%** số điểm.
 
-
+[![C7 01 Chương 07 - Chọn và đọc biểu đồ – bảng 3](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thành phần | Ký hiệu | Ý nghĩa | % dữ liệu ≤ |
@@ -114,7 +114,7 @@ Tạo từ **năm đại lượng**, chia dữ liệu thành 4 phần, mỗi ph�
 - **Râu (whiskers):** từ $Q_1$ xuống Min và từ $Q_3$ lên Max. Độ dài râu cho biết độ phân tán của 25% thấp nhất và 25% cao nhất.
 - **Ngoại lai:** chấm/sao/vòng tròn ngoài râu. Thường là giá trị $< Q_1 - 1.5\,IQR$ hoặc $> Q_3 + 1.5\,IQR$. Là điểm bất thường **cần điều tra**.
 
-
+[![Giải phẫu boxplot](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/Gi%E1%BA%A3i%20ph%E1%BA%ABu%20boxplot.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/Gi%E1%BA%A3i%20ph%E1%BA%ABu%20boxplot.excalidraw.md)
 
 > **example** Ví dụ · Tính tay từng bước
 > Dữ liệu đã sắp: `2, 4, 4, 5, 6, 7, 8, 9, 30` (9 giá trị).
@@ -161,7 +161,7 @@ tr. 35 · tr. 36 · tr. 37 · tr. 38 · tr. 39
 
 Trả lời: nhóm nào lớn/nhỏ hơn · xu hướng giữa các thời điểm · chênh lệch giữa danh mục · thứ tự xếp hạng.
 
-
+[![C7 01 Chương 07 - Chọn và đọc biểu đồ – bảng 4](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Biểu đồ | Dùng khi | Ví dụ slide |
@@ -252,7 +252,7 @@ tr. 54 · tr. 55 · tr. 56 · tr. 57
 
 Slide 55 minh họa các biến thể: Area, Bar, Bubble, Geographic map, Line, Radar, Scatter — mỗi loại đều có dạng small multiples (ví dụ Coca-Cola / Diet Coke / Coke Zero cạnh nhau).
 
-
+[![C7 01 Chương 07 - Chọn và đọc biểu đồ – bảng 5](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2001%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Khi nên dùng | Ưu điểm |

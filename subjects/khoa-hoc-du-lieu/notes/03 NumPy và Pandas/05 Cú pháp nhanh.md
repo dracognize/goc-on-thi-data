@@ -2,7 +2,7 @@
 
 Cách đọc lời gọi **`np.arange(2, 8, 2)`**: `np` là tên ngắn thư viện, **`arange`** là hàm, ba đối số là mốc đầu 2, mốc ngoài 8 và bước 2. Kết quả là `[2, 4, 6]`. Một phương thức như **`a.reshape(...)`** nằm trên chính đối tượng `a`. Thuộc tính như `a.shape` lấy thông tin bằng tên, không thêm dấu gọi `()`.
 
-
+[![C3 05 Cú pháp nhanh – bảng 1](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2005%20C%C3%BA%20ph%C3%A1p%20nhanh%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2005%20C%C3%BA%20ph%C3%A1p%20nhanh%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thao tác | Cú pháp | Điểm cần kiểm tra |

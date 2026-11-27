@@ -93,7 +93,7 @@ print(arr3d.T.shape)                          # (4, 3, 2)   đảo ngược toà
 print(np.swapaxes(arr3d, 0, 2).shape)         # (4, 3, 2)   đổi chỗ trục 0 và 2
 ```
 
-
+[![C3 01 Shape axis và broadcasting – bảng 1](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2001%20Shape%20axis%20v%C3%A0%20broadcasting%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2001%20Shape%20axis%20v%C3%A0%20broadcasting%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách viết | Tác dụng | Shape `(2, 3, 4)` thành |
@@ -111,7 +111,7 @@ Nguồn tr. 52, tr. 53.
 
 **Broadcasting** (lan truyền) tự động "kéo giãn" mảng nhỏ cho khớp mảng lớn để tính theo từng phần tử (element-wise).
 
-
+[![C3 01 Shape axis và broadcasting – bảng 2](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2001%20Shape%20axis%20v%C3%A0%20broadcasting%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2001%20Shape%20axis%20v%C3%A0%20broadcasting%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Đặc điểm | Nội dung |
@@ -122,7 +122,7 @@ Nguồn tr. 52, tr. 53.
 > | Cách kiểm soát | **`np.newaxis`**, **`reshape`**, `expand_dims` để đổi shape |
 > | Hiệu suất | Rất nhanh vì vector hóa trong C |
 
-
+[![Broadcasting từng bước](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/Broadcasting%20t%E1%BB%ABng%20b%C6%B0%E1%BB%9Bc.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/Broadcasting%20t%E1%BB%ABng%20b%C6%B0%E1%BB%9Bc.excalidraw.md)
 
 Hình tr. 53 có 3 ca, đều cho kết quả shape `(4, 3)`:
 
@@ -179,9 +179,9 @@ Ca 1: chiều cuối của a là 3, của b là 2 → khác nhau, không bên n�
 
 Phần này nối sang [thống kê theo axis](09%20Th%E1%BB%91ng%20k%C3%AA%2C%20t%E1%BA%ADp%20h%E1%BB%A3p%20v%C3%A0%20%C4%91%E1%BA%A1i%20s%E1%BB%91%20tuy%E1%BA%BFn%20t%C3%ADnh.md).
 
+[![Đọc trục của ma trận](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/%C4%90%E1%BB%8Dc%20tr%E1%BB%A5c%20c%E1%BB%A7a%20ma%20tr%E1%BA%ADn.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/%C4%90%E1%BB%8Dc%20tr%E1%BB%A5c%20c%E1%BB%A7a%20ma%20tr%E1%BA%ADn.excalidraw.md)
 
-
-
+[![02 Trục và shape](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/02%20Tr%E1%BB%A5c%20v%C3%A0%20shape.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/02%20Tr%E1%BB%A5c%20v%C3%A0%20shape.excalidraw.md)
 
 Với `a = np.array([[1, 2, 3], [4, 5, 6]])`: **`a.sum(axis=0)`** → `[5 7 9]` (xóa trục 0, còn 3 số), **`a.sum(axis=1)`** → `[ 6 15]` (xóa trục 1, còn 2 số).
 

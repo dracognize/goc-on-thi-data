@@ -12,7 +12,7 @@
 
 tr. 31 · tr. 32 · tr. 33
 
-
+[![C5 Thực hành thêm - Điền dữ liệu bằng mô hì – bảng 1](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Chiến lược | Ứng dụng | Ví dụ |
@@ -21,7 +21,7 @@ tr. 31 · tr. 32 · tr. 33
 > | Phân loại | Dữ liệu phân loại | Cây quyết định phân loại giá trị |
 > | Phân tích thống kê | Dữ liệu số | Dùng thống kê dự đoán giá trị |
 
-
+[![C5 Thực hành thêm - Điền dữ liệu bằng mô hì – bảng 2](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ưu điểm | Nhược điểm |
@@ -93,7 +93,7 @@ tr. 36 – tr. 39
 
 **Random Forest** là thuật toán **ensemble learning** kết hợp nhiều **Decision Tree**:
 
-
+[![C5 Thực hành thêm - Điền dữ liệu bằng mô hì – bảng 3](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thành phần | Ý nghĩa |
@@ -120,7 +120,7 @@ flowchart TD
 
 **Tham số quan trọng** (tr. 39):
 
-
+[![C5 Thực hành thêm - Điền dữ liệu bằng mô hì – bảng 4](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -393,14 +393,14 @@ Sau: 0 missing values
 > **info** Mở rộng: vì sao Bình được 31?
 > Sklearn dùng khoảng cách **nan_euclidean**: chỉ tính trên tọa độ cả hai hàng đều có, rồi phóng theo tỷ lệ. Lương (hàng chục triệu) lấn át các cột khác. Chi và Hoa không có Lương nên khoảng cách tới Bình chỉ tính trên Kinh nghiệm và mã phòng (≈ 3,2), gần nhất. Tuổi Bình = (30 + 32)/2 = **31**. Bài học: **scale dữ liệu trước KNN** (xem [03 Chuẩn hóa dữ liệu](03%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u.md)).
 
-
+[![KNN điền ô thiếu của Bình](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/KNN%20%C4%91i%E1%BB%81n%20%C3%B4%20thi%E1%BA%BFu%20c%E1%BB%A7a%20B%C3%ACnh.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/KNN%20%C4%91i%E1%BB%81n%20%C3%B4%20thi%E1%BA%BFu%20c%E1%BB%A7a%20B%C3%ACnh.excalidraw.md)
 
 > **question** Tự kiểm tra: với `n_neighbors=2`, hai láng giềng có Lương 18M và 25M. Ô Lương được điền bao nhiêu?
 > (18 + 25)/2 = **21,5 triệu**. Đó là giá trị của Chi, Phong, Hoa ở trên.
 
 ## So sánh nhanh ba demo
 
-
+[![C5 Thực hành thêm - Điền dữ liệu bằng mô hì – bảng 5](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%AC%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | Demo 1 (RF Tuổi) | Demo 2 (RF Lương) | Demo 3 (KNN) |
@@ -450,6 +450,6 @@ assert result["tuoi"].notna().all()
 
 - F513 Kỹ thuật học máy hỗ trợ làm sạch
 - F504 Điền giá trị thiếu
-- Mô hình Random Forest, KNN học kỹ ở Chương 8.
+- Mô hình Random Forest, KNN học kỹ ở [Chương 8](../08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).
 
-Mục lục chương 5 · Trước: [01 Thiếu và trùng](01%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.md) · Tiếp: [03 Chuẩn hóa dữ liệu](03%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u.md)
+[Mục lục chương 5](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Trước: [01 Thiếu và trùng](01%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.md) · Tiếp: [03 Chuẩn hóa dữ liệu](03%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u.md)

@@ -13,7 +13,7 @@ tr. 100 · tr. 101
 
 Hầu hết trang trí đồ thị truy cập qua **phương thức của đối tượng Axes**.
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nhóm | Hàm pyplot | Trên Axes |
@@ -45,7 +45,7 @@ print(ax.get_xlim())    # (0.0, 10.0)
 
 tr. 102 · tr. 103 · tr. 104
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 2](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Tham số |
@@ -69,7 +69,7 @@ Từng bước: (1) đặt 5 **vị trí**; (2) thay số bằng 5 **chữ**, xo
 
 tr. 105 · tr. 106 · tr. 107
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 3](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Tham số riêng | Ví dụ |
@@ -114,7 +114,7 @@ ax.legend()
 
 Ba đường cùng màu đen → phân biệt bằng **kiểu nét**. Legend hiện 3 dòng "one / two / three".
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 4](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số **`legend()`** | Ý nghĩa |
@@ -162,7 +162,7 @@ ax.text(1, 2, "Nội dung", fontdict=font_settings)
 - *`withdash`* (hiếm dùng): vẽ gạch nhỏ nối chữ với điểm dữ liệu.
 - **kwargs** (dùng rất nhiều):
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 5](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thuộc tính | Ý nghĩa |
@@ -192,7 +192,7 @@ ax.annotate("Nội dung chú thích",
             arrowprops=dict(arrowstyle="->", lw=1.5))
 ```
 
-
+[![Annotate xy và xytext](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/Annotate%20xy%20v%C3%A0%20xytext.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/Annotate%20xy%20v%C3%A0%20xytext.excalidraw.md)
 
 > **example** Ví dụ slide · Khủng hoảng tài chính 2008 (chỉ số S&P 500)
 > ```python
@@ -249,7 +249,7 @@ ax.set_xlim(0, 6); ax.set_ylim(0, 6)
 ax.set_title("Thêm các hình dạng vào biểu đồ")
 ```
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 6](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Patch | Tham số đầu |
@@ -272,7 +272,7 @@ fig.savefig(fname, dpi=None, facecolor='w', edgecolor='w', orientation='portrait
             transparent=False, bbox_inches=None, pad_inches=0.1, format=None, metadata=None)
 ```
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 7](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -308,7 +308,7 @@ tr. 120 · tr. 121
 
 matplotlib có sẵn lược đồ màu và giá trị mặc định. Hầu hết đều chỉnh được qua **tham số toàn cục**: kích thước hình, khoảng cách subplot, màu, cỡ chữ, kiểu lưới...
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 8](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách | Dùng khi | Ví dụ |
@@ -338,7 +338,7 @@ plt.rc("figure", figsize=(10, 10))      # kích thước mặc định 10 × 10 
 
 Đối số đầu là **thành phần** cần chỉnh, sau đó là tham số từ khóa.
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 9](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nhóm | Ý nghĩa | Tham số ví dụ |
@@ -381,7 +381,7 @@ tr. 128 · tr. 129 · tr. 130
 
 `mpl.rcParams` là **từ điển cấu hình toàn cục**: chứa mọi cặp khóa–giá trị. Xem/sửa thiết lập mặc định mà không chỉnh từng biểu đồ.
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 10](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tác vụ | Cú pháp |
@@ -395,7 +395,7 @@ tr. 128 · tr. 129 · tr. 130
 
 Khóa phổ biến — dạng **`'nhóm.thuộc_tính'`**:
 
-
+[![C7 08 Chương 07 - Trục chú giải lưu hình và – bảng 11](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%2011.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2008%20Ch%C6%B0%C6%A1ng%2007%20-%20Tr%E1%BB%A5c%20ch%C3%BA%20gi%E1%BA%A3i%20l%C6%B0u%20h%C3%ACnh%20v%C3%A0%20%E2%80%93%20b%E1%BA%A3ng%2011.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nhóm | Khóa | Ý nghĩa | Ví dụ |

@@ -65,7 +65,7 @@ df.plot()
 - **`plot`** là một **"họ" phương thức**: **`df.plot()` ≡ `df.plot.line()`**.
 - Tham số từ khóa thừa được **chuyển tiếp** cho hàm matplotlib tương ứng.
 
-
+[![C7 09 Chương 07 - Pandas và Seaborn – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2009%20Ch%C6%B0%C6%A1ng%2007%20-%20Pandas%20v%C3%A0%20Seaborn%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2009%20Ch%C6%B0%C6%A1ng%2007%20-%20Pandas%20v%C3%A0%20Seaborn%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số riêng DataFrame | Ý nghĩa |
@@ -269,7 +269,7 @@ sns.catplot(x="day", y="tip_pct", row="time", col="smoker",
 
 → lưới **2 hàng (time) × 2 cột (smoker)**. Đã chạy: `g.axes.shape` = `(1, 2)` với lệnh đầu, `(2, 2)` với lệnh sau. **`catplot`** trả về **FacetGrid**.
 
-
+[![hue col row trong catplot](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/hue%20col%20row%20trong%20catplot.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/hue%20col%20row%20trong%20catplot.excalidraw.md)
 
 *`kind`* còn có `"box"`, `"violin"`, `"strip"`, `"swarm"`, `"point"`, `"count"`... Ví dụ boxplot:
 
@@ -279,7 +279,7 @@ sns.catplot(x="tip_pct", y="day", kind="box", data=tips[tips.tip_pct < 0.5])
 
 x là số, y là danh mục → hộp **nằm ngang**, mỗi ngày một hộp.
 
-
+[![C7 09 Chương 07 - Pandas và Seaborn – bảng 2](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2009%20Ch%C6%B0%C6%A1ng%2007%20-%20Pandas%20v%C3%A0%20Seaborn%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2009%20Ch%C6%B0%C6%A1ng%2007%20-%20Pandas%20v%C3%A0%20Seaborn%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số catplot | Tác dụng |

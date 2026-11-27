@@ -30,7 +30,7 @@
 > *`loc`* với nhãn đơn chỉ khớp cấp ngoài (Ma CP). Dùng **`xs('2025-08-14', level='Ngay')`** hoặc `swaplevel(0, 1).loc['2025-08-14']`. Xem [01 MultiIndex](01%20MultiIndex.md).
 
 > **question** 9. purchases có Alice ×2, Bob ×1, Charlie ×2; favorites có Alice ×2, Bob ×1, Charlie ×1. Inner merge theo customer có mấy hàng?
-> 2·2 + 1·1 + 2·1 = 7. Xem Đếm hàng khi merge nhiều–nhiều.excalidraw.
+> 2·2 + 1·1 + 2·1 = 7. Xem [Đếm hàng khi merge nhiều–nhiều.excalidraw](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/%C4%90%E1%BA%BFm%20h%C3%A0ng%20khi%20merge%20nhi%E1%BB%81u%E2%80%93nhi%E1%BB%81u.excalidraw.md).
 
 > **question** 10. `pd.concat([sales_hanoi, sales_saigon, sales_danang])` (mỗi bảng 2 dòng, index 0, 1) có index gì? Muốn 0..5 thì sao?
 > `0, 1, 0, 1, 0, 1`. Thêm *`ignore_index=True`*.
@@ -46,4 +46,4 @@
 
 Sau lượt đầu, thay dữ kiện trong một câu và giải lại từ đầu. Ôn quy tắc trong [05 Công thức và cú pháp](05%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p.md) và Thẻ nhớ chương 6.
 
-Mục lục chương 6
+[Mục lục chương 6](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

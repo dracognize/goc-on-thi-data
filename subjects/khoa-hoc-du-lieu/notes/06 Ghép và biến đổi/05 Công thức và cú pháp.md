@@ -23,6 +23,6 @@ Trước khi chọn hàm, phân biệt **bổ sung thông tin theo khóa**, **x�
 | Long sang wide không tổng hợp | **`df.pivot(index=..., columns=..., values=...)`** | Cặp (index, columns) phải duy nhất (tr. 94) |
 | Ô thiếu khi unstack | **`s.unstack(fill_value=0)`** | Thay NaN bằng 0 (tr. 102) |
 
-Ôn bằng Thẻ nhớ chương 6 · Sơ đồ chọn hàm.
+Ôn bằng Thẻ nhớ chương 6 · Sơ đồ [chọn hàm](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Ch%E1%BB%8Dn%20h%C3%A0m%20gh%C3%A9p%20hay%20%C4%91%E1%BB%95i%20d%E1%BA%A1ng.excalidraw.md).
 
-Mục lục chương 6
+[Mục lục chương 6](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

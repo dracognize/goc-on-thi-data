@@ -13,7 +13,7 @@ tr. 82 · tr. 83 · tr. 84
 
 **Mục đích** biến đổi dữ liệu:
 
-
+[![C5 03 Chuẩn hóa dữ liệu – bảng 1](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2003%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2003%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mục đích | Ý nghĩa |
@@ -156,7 +156,7 @@ $X_{median}$: trung vị · $IQR$ (Interquartile Range): khoảng giữa tứ ph
 
 tr. 95
 
-
+[![C5 03 Chuẩn hóa dữ liệu – bảng 2](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2003%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2003%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tiêu chí | StandardScaler | MinMaxScaler | RobustScaler |
@@ -188,7 +188,7 @@ for sc in [MinMaxScaler(), StandardScaler(), RobustScaler()]:
 
 **`describe()`** cho cột Lương (tr. 97): mean ≈ 51,67 triệu (bị kéo lên) · std ≈ 72,86 triệu · min 15 · 25% **19** · 50% **23,5** · 75% **28,75** · max 200 triệu. Mean > gấp đôi median là dấu hiệu lệch phải do outlier.
 
-
+[![C5 03 Chuẩn hóa dữ liệu – bảng 3](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2003%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2003%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàng (Lương) | MinMax | Standard | Robust |
@@ -206,7 +206,7 @@ for sc in [MinMaxScaler(), StandardScaler(), RobustScaler()]:
 
 **Tính tay Robust:** median = 23,5 triệu, IQR = 28,75 − 19 = 9,75 triệu. Lương 15 triệu: $(15-23{,}5)/9{,}75 = -0{,}872$. Lương 200 triệu: $(200-23{,}5)/9{,}75 = 18{,}10$.
 
-
+[![So sánh ba scaler khi có outlier](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/So%20s%C3%A1nh%20ba%20scaler%20khi%20c%C3%B3%20outlier.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/So%20s%C3%A1nh%20ba%20scaler%20khi%20c%C3%B3%20outlier.excalidraw.md)
 
 **Biểu đồ boxplot** (tr. 101): với MinMax và Standard, hộp lương bình thường **bẹp sát 0**, outlier chiếm ưu thế. Với Robust, hộp **rộng ra**, outlier vẫn tách xa.
 
@@ -225,10 +225,10 @@ for sc in [MinMaxScaler(), StandardScaler(), RobustScaler()]:
 
 - F507 Chuẩn hóa thang đo: Min-Max, Standard, Robust
 - F506 Ngoại lai: IQR, z-score và thống kê mô tả
-- Bài mẫu: Scale theo thống kê đã học
-- Tác động của thang đo lên khoảng cách trong Chương 8.
+- Bài mẫu: [Scale theo thống kê đã học](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch%C6%B0%C6%A1ng%205%20-%20Scale%20theo%20th%E1%BB%91ng%20k%C3%AA%20%C4%91%C3%A3%20h%E1%BB%8Dc.md)
+- Tác động của thang đo lên khoảng cách trong [Chương 8](../08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).
 
 > **info** Mở rộng: ngoại lai theo IQR và z-score (dạng câu F506)
 > Ngưỡng IQR: dưới $Q_1 - 1{,}5\cdot IQR$, trên $Q_3 + 1{,}5\cdot IQR$. Với Lương ở trên: $28{,}75 + 1{,}5\cdot 9{,}75 = 43{,}375$ triệu, nên 200 triệu là ngoại lai. Theo z-score, thường coi $|z| > 3$ là ngoại lai.
 
-Mục lục chương 5 · Trước: [Thực hành thêm - Điền dữ liệu bằng mô hình](Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%ACnh.md) · Tiếp: [04 Chuỗi và mã hóa phân loại](04%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i.md)
+[Mục lục chương 5](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Trước: [Thực hành thêm - Điền dữ liệu bằng mô hình](Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20%C4%90i%E1%BB%81n%20d%E1%BB%AF%20li%E1%BB%87u%20b%E1%BA%B1ng%20m%C3%B4%20h%C3%ACnh.md) · Tiếp: [04 Chuỗi và mã hóa phân loại](04%20Chu%E1%BB%97i%20v%C3%A0%20m%C3%A3%20h%C3%B3a%20ph%C3%A2n%20lo%E1%BA%A1i.md)

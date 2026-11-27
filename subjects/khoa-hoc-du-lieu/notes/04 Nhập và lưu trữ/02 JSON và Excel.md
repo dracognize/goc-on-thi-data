@@ -6,7 +6,7 @@
 > - Pandas: **`pd.read_json(...)`** → DataFrame/Series; **`df.to_json(orient=...)`** → JSON.
 > - **Excel**: **`pd.ExcelFile(...).parse(sheet_name=...)`** hoặc **`pd.read_excel(...)`**; ghi bằng **`pd.ExcelWriter`** + **`to_excel`**.
 
-
+[![JSON qua lại Python và orient](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/JSON%20qua%20l%E1%BA%A1i%20Python%20v%C3%A0%20orient.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/JSON%20qua%20l%E1%BA%A1i%20Python%20v%C3%A0%20orient.excalidraw.md)
 
 ## Phần A · JSON
 
@@ -29,7 +29,7 @@ Nguồn tr. 41, tr. 42.
 
 Nguồn tr. 43, tr. 44.
 
-
+[![C4 02 JSON và Excel – bảng 1](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | Object | Array |
@@ -65,7 +65,7 @@ json.loads(s, *, cls=None, object_hook=None, parse_float=None,
            parse_int=None, parse_constant=None, object_pairs_hook=None, **kw)
 ```
 
-
+[![C4 02 JSON và Excel – bảng 2](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Kiểu | Mặc định | Chức năng | Ví dụ |
@@ -93,7 +93,7 @@ print(json.loads('NaN', parse_constant=lambda x: "INVALID"))  # INVALID
 
 Nguồn tr. 49.
 
-
+[![C4 02 JSON và Excel – bảng 3](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | JSON | Python |
@@ -126,7 +126,7 @@ json.dumps(obj, *, skipkeys=False, ensure_ascii=True, check_circular=True,
            default=None, sort_keys=False, **kw)
 ```
 
-
+[![C4 02 JSON và Excel – bảng 4](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Mặc định | Ý nghĩa |
@@ -207,7 +207,7 @@ pd.read_json(path_or_buf=None, orient=None, typ='frame', dtype=True,
              lines=False, chunksize=None, compression='infer')
 ```
 
-
+[![C4 02 JSON và Excel – bảng 5](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -254,7 +254,7 @@ DataFrame.to_json(path_or_buf=None, orient=None, date_format=None,
                   index=True, indent=None, storage_options=None)
 ```
 
-
+[![C4 02 JSON và Excel – bảng 6](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2002%20JSON%20v%C3%A0%20Excel%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Mô tả |
@@ -367,6 +367,6 @@ Nguồn tr. 96.
 > **question** 6. Cần đọc 3 sheet trong cùng tệp. Dùng gì cho nhanh?
 > **`pd.ExcelFile(path)`** một lần rồi **`.parse(sheet_name=...)`** cho từng sheet.
 
-**Áp dụng ở.** F404 Giải mã JSON và JSON Lines · F403 Đọc Excel và nhiều sheet · F402 Ghi tệp · bài mẫu Giải mã JSON và phản hồi API.
+**Áp dụng ở.** F404 Giải mã JSON và JSON Lines · F403 Đọc Excel và nhiều sheet · F402 Ghi tệp · bài mẫu [Giải mã JSON và phản hồi API](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch%C6%B0%C6%A1ng%204%20-%20Gi%E1%BA%A3i%20m%C3%A3%20JSON%20v%C3%A0%20ph%E1%BA%A3n%20h%E1%BB%93i%20API.md).
 
-Trước: [Ghi CSV với to_csv](Ghi%20CSV%20v%E1%BB%9Bi%20to_csv.md) · Tiếp: [03 Web API XML và SQLite](03%20Web%20API%20XML%20v%C3%A0%20SQLite.md) · Mục lục chương 4
+Trước: [Ghi CSV với to_csv](Ghi%20CSV%20v%E1%BB%9Bi%20to_csv.md) · Tiếp: [03 Web API XML và SQLite](03%20Web%20API%20XML%20v%C3%A0%20SQLite.md) · [Mục lục chương 4](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

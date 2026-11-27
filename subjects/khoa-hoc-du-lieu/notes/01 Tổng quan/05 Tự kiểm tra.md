@@ -73,4 +73,4 @@ Tự giải thích lý do trước khi mở đáp án. Mỗi câu tính một đ
 > **question** 20. Vì sao dùng số đơn trong tháng sau để dự đoán quay lại vào tháng sau là lỗi?
 > Biến lấy từ khoảng thời gian cần dự đoán, chưa có ở thời điểm dự đoán (rò rỉ dữ liệu).
 
-**Đạt** khi đúng ít nhất 16/20 và giải thích được câu đã đoán. Sai câu nào thì mở Thẻ nhớ chương 1 và họ bài tương ứng trong Mục lục Chương 01.
+**Đạt** khi đúng ít nhất 16/20 và giải thích được câu đã đoán. Sai câu nào thì mở Thẻ nhớ chương 1 và họ bài tương ứng trong [Mục lục Chương 01](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).

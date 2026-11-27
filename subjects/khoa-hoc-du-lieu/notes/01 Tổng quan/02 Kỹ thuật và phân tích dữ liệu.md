@@ -10,7 +10,7 @@
 
 ## Theo một hóa đơn qua hệ thống
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 1](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Khâu | Ví dụ một hóa đơn 001 |
@@ -36,7 +36,7 @@ Nguồn tr. 34–tr. 37.
 
 Nguồn tr. 38.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 2](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Giai đoạn | Tên tiếng Anh | Mô tả |
@@ -47,7 +47,7 @@ Nguồn tr. 38.
 > | 4. Biến đổi | Data Transformation | Xử lý, làm sạch, chuẩn hóa để sẵn sàng phân tích |
 > | 5. Phục vụ | Data Serving | Cung cấp dữ liệu đã xử lý cho người dùng cuối, ứng dụng, học máy |
 
-
+[![C1 Năm bước kỹ thuật dữ liệu](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20N%C4%83m%20b%C6%B0%E1%BB%9Bc%20k%E1%BB%B9%20thu%E1%BA%ADt%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20N%C4%83m%20b%C6%B0%E1%BB%9Bc%20k%E1%BB%B9%20thu%E1%BA%ADt%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.md)
 
 > **warning** Dễ nhầm thứ tự
 > Theo slide, **Lưu trữ (bước 2) đứng trước Thu nạp (bước 3)**: phải thiết kế nơi chứa trước rồi mới đổ dữ liệu vào. Nhiều phương án nhiễu đảo thành "Nguồn → Thu nạp → Lưu trữ".
@@ -58,7 +58,7 @@ Nguồn tr. 39–tr. 41.
 
 Hệ thống nguồn là **điểm khởi đầu**, nơi dữ liệu thô sinh ra từ hoạt động thực tế. Nó cấp "nguyên liệu đầu vào" và **ảnh hưởng trực tiếp đến chất lượng, độ phức tạp, độ tin cậy** của cả pipeline.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 3](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nguồn trong KT&KD | Mô tả |
@@ -71,7 +71,7 @@ Hệ thống nguồn là **điểm khởi đầu**, nơi dữ liệu thô sinh r
 
 **Sáu đặc tính cần phân tích ở nguồn** (tr. 41):
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 4](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Đặc tính | Câu hỏi | Ví dụ |
@@ -89,7 +89,7 @@ Nguồn tr. 42–tr. 44.
 
 Giai đoạn **trung tâm**: dữ liệu được bảo toàn, tổ chức, chuẩn bị. Vai trò: lưu từ nhiều nguồn; giúp tìm kiếm, truy vấn hiệu quả; là **"kho nguyên liệu sạch"** cho phân tích, AI, học máy.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 5](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hình thức | Mô tả | Ví dụ |
@@ -119,7 +119,7 @@ Nguồn tr. 45–tr. 49.
 
 Chuyển dữ liệu từ **nguồn sang lưu trữ**. Là **cửa ngõ đầu tiên**; thu nạp lỗi → mọi phân tích sau mất giá trị. Cần: **đúng lúc, đúng định dạng, không trùng lặp, dễ kiểm soát & tái sử dụng**.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 6](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thách thức | Ví dụ |
@@ -139,7 +139,7 @@ Ba cách phân loại cần tách bạch:
 | Thứ tự (tr. 49) | **ETL** | Extract → **Transform → Load**: biến đổi trước khi lưu; kiểm soát chặt chất lượng; Data Warehouse truyền thống | Chuẩn kiểu ngày rồi mới nạp kho |
 | | **ELT** | Extract → **Load → Transform**: lưu trước rồi biến đổi; hệ lớn (Data Lake, Cloud DW), linh hoạt phân tích sau | Đổ log thô vào lake rồi tổng hợp bằng truy vấn |
 
-
+[![C1 ETL và ELT](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20ETL%20v%C3%A0%20ELT.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20ETL%20v%C3%A0%20ELT.excalidraw.md)
 
 > **tip** Mẹo thi
 > - Hỏi **"ai chủ động?"** → push/pull. Hỏi **"bao lâu một lần?"** → batch/streaming. Hỏi **"biến đổi trước hay sau khi nạp?"** → ETL/ELT.
@@ -154,7 +154,7 @@ Nguồn tr. 50–tr. 53.
 
 Chuyển dữ liệu thô thành dữ liệu sẵn sàng: đầy đủ, sạch, có cấu trúc rõ, đúng mục đích.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 7](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mục tiêu | Cụ thể |
@@ -164,7 +164,7 @@ Chuyển dữ liệu thô thành dữ liệu sẵn sàng: đầy đủ, sạch, 
 > | Chuyển kiểu dữ liệu | "ngày đặt hàng" chuỗi → datetime |
 > | Tạo đặc trưng (Feature Engineering) | "Tuổi" từ ngày sinh |
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 8](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thao tác phổ biến | Ví dụ |
@@ -213,7 +213,7 @@ Nguồn tr. 54–tr. 57 (tr. 55 lặp tr. 54).
 
 Bước cuối: dữ liệu đã xử lý đến **đúng người, đúng lúc**, sẵn sàng cho hành động, phân tích, dự đoán, quyết định.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 9](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%209.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mục tiêu | Cụ thể |
@@ -222,7 +222,7 @@ Bước cuối: dữ liệu đã xử lý đến **đúng người, đúng lúc*
 > | Cung cấp dữ liệu cho mô hình học máy | Đầu vào cho dự đoán, phân loại, cá nhân hóa |
 > | **Đồng bộ ngược (Reverse ETL)** | Đưa dữ liệu phân tích **trở lại hệ thống vận hành** như CRM, marketing |
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 10](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%2010.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hình thức | Ví dụ | Đặc điểm |
@@ -244,7 +244,7 @@ Bước cuối: dữ liệu đã xử lý đến **đúng người, đúng lúc*
 
 Nguồn tr. 41 (đầy đủ, đúng, kịp thời) và tr. 73 (5 tiêu chí kiểm định). Chiều "hợp lệ" là **Mở rộng**.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 11](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%2011.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%2011.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tiêu chí | Ý nghĩa | Ví dụ lỗi |
@@ -262,7 +262,7 @@ Nguồn tr. 41 (đầy đủ, đúng, kịp thời) và tr. 73 (5 tiêu chí ki�
 
 Chi tiết ở [07 · Bốn cấp độ](07%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u.md). Nguồn tr. 76.
 
-
+[![C1 02 Kỹ thuật và phân tích dữ liệu – bảng 12](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%2012.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2002%20K%E1%BB%B9%20thu%E1%BA%ADt%20v%C3%A0%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%2012.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cấp độ | Câu hỏi |

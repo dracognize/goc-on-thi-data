@@ -20,7 +20,7 @@ Nguồn tr. 26.
 
 Nguồn tr. 27 (trang tr. 28 lặp lại bảng).
 
-
+[![C1 06 Dữ liệu và vị trí công việc – bảng 1](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại | Đặc điểm | Ví dụ |
@@ -49,7 +49,7 @@ flowchart TD
 
 Nguồn tr. 29.
 
-
+[![C1 06 Dữ liệu và vị trí công việc – bảng 2](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Định dạng | Mô tả | Ứng dụng |
@@ -70,7 +70,7 @@ Nguồn tr. 29.
 
 Nguồn tr. 30.
 
-
+[![C1 06 Dữ liệu và vị trí công việc – bảng 3](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nguồn | Mô tả | Ví dụ |
@@ -88,7 +88,7 @@ Nguồn tr. 30.
 
 Nguồn tr. 31.
 
-
+[![C1 06 Dữ liệu và vị trí công việc – bảng 4](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại | Ngôn ngữ | Vai trò | Ứng dụng |
@@ -122,7 +122,7 @@ Name: tien, dtype: int64
 
 Nguồn tr. 32.
 
-
+[![C1 06 Dữ liệu và vị trí công việc – bảng 5](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2006%20D%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20v%E1%BB%8B%20tr%C3%AD%20c%C3%B4ng%20vi%E1%BB%87c%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Vị trí | Câu khẩu hiệu trên slide | Đầu ra điển hình |

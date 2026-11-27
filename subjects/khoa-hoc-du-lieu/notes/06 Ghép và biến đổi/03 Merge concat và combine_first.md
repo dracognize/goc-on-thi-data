@@ -6,7 +6,7 @@
 > - **`pd.concat()`** — **xếp** các đối tượng dọc theo một trục (hàng hoặc cột). Hợp với dữ liệu **cùng cấu trúc**.
 > - **`DataFrame.combine_first()`** — hai đối tượng cấu trúc tương tự; **ô thiếu** ở đối tượng thứ nhất được lấp bằng ô tương ứng của đối tượng thứ hai. Dùng khi làm sạch, bổ sung dữ liệu.
 
-
+[![Chọn hàm ghép hay đổi dạng](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Ch%E1%BB%8Dn%20h%C3%A0m%20gh%C3%A9p%20hay%20%C4%91%E1%BB%95i%20d%E1%BA%A1ng.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Ch%E1%BB%8Dn%20h%C3%A0m%20gh%C3%A9p%20hay%20%C4%91%E1%BB%95i%20d%E1%BA%A1ng.excalidraw.md)
 
 ---
 
@@ -42,7 +42,7 @@ pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
 
 ### Tham số `how` (tr. 52)
 
-
+[![C6 03 Merge concat và combine_first – bảng 1](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | *`how`* | Hành vi | Ghi nhớ |
@@ -64,7 +64,7 @@ flowchart TD
 
 ### Các tham số khác (tr. 53, tr. 54)
 
-
+[![C6 03 Merge concat và combine_first – bảng 2](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -132,7 +132,7 @@ $$
 
 Ý nghĩa nghiệp vụ: Alice đã mua Laptop, Mouse nhưng còn thích Keyboard, Monitor → khả năng cao sẽ mua → gợi ý khuyến mại.
 
-
+[![Đếm hàng khi merge nhiều–nhiều](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/%C4%90%E1%BA%BFm%20h%C3%A0ng%20khi%20merge%20nhi%E1%BB%81u%E2%80%93nhi%E1%BB%81u.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/%C4%90%E1%BA%BFm%20h%C3%A0ng%20khi%20merge%20nhi%E1%BB%81u%E2%80%93nhi%E1%BB%81u.excalidraw.md)
 
 > **tip** Mẹo thi: đếm hàng theo từng khóa
 > | Kiểu | Khóa chung $k$ | Khóa chỉ ở trái | Khóa chỉ ở phải |
@@ -211,7 +211,7 @@ Kết quả tr. 60 có cùng 4 hàng nhưng index `0..3` và `customer_code` là
 - **Cột** chỉ là mảng NumPy. Merge theo cột phải quét dữ liệu, tạo bảng băm trung gian rồi mới join → tốn **thời gian và bộ nhớ**.
 - Ví dụ tr. 64: hai bảng 1 000 000 hàng, `%timeit -n 3 -r 3`. Merge theo cột ≈ **38.1 ms**, theo index ≈ **12.6 ms**. Hai kết quả có cùng dữ liệu; bản theo index dùng *`key`* làm index.
 
-
+[![C6 03 Merge concat và combine_first – bảng 3](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | Merge theo cột | Merge theo index |
@@ -241,7 +241,7 @@ pd.concat(objs, axis=0, join='outer', ignore_index=False, keys=None,
           levels=None, names=None, verify_integrity=False, sort=False, copy=True)
 ```
 
-
+[![C6 03 Merge concat và combine_first – bảng 4](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Đối số | Mô tả |
@@ -335,7 +335,7 @@ Theo dấu từng bước:
 2. *`join='outer'`* → hợp nhãn `{1, 2, 3, 4}`. Alice không có `total_spent` → NaN. Anna không có `credit_score` → NaN.
 3. Cột có NaN chuyển sang float (3000 → 3000.0).
 
-
+[![Concat căn theo nhãn](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Concat%20c%C4%83n%20theo%20nh%C3%A3n.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/Concat%20c%C4%83n%20theo%20nh%C3%A3n.excalidraw.md)
 
 > **example** Biến thể
 > - *`join='inner'`* → chỉ còn nhãn chung `{2, 3}`: Bob và Charlie, không NaN.
@@ -399,7 +399,7 @@ Year
 
 ## Bảng so sánh ba cách ghép
 
-
+[![C6 03 Merge concat và combine_first – bảng 5](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C6%2003%20Merge%20concat%20v%C3%A0%20combine_first%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | **`merge`** | **`concat`** | **`combine_first`** |
@@ -413,4 +413,4 @@ Year
 
 **Cần biết trước.** [MultiIndex](01%20MultiIndex.md) (cho `keys=` và **`set_index`**), [Thiếu và trùng](../05%20L%C3%A0m%20s%E1%BA%A1ch/01%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.md) (NaN).
 
-Mục lục chương 6 · Nguồn Lec 6, tr. 45.
+[Mục lục chương 6](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Nguồn Lec 6, tr. 45.

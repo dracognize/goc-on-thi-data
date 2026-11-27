@@ -245,7 +245,7 @@ flowchart TD
     G --> H
 ```
 
-
+[![C4 03 Web API XML và SQLite – bảng 1](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mã | Nghĩa |
@@ -289,7 +289,7 @@ Kết quả slide: 63 tỉnh, cột `districts` là `[]` vì *`depth=1`* chỉ l
 
 Nguồn tr. 104.
 
-
+[![C4 03 Web API XML và SQLite – bảng 2](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | `sqlite3` | SQLAlchemy |
@@ -304,7 +304,7 @@ Nguồn tr. 105.
 
 Kết nối (**`sqlite3.connect`**) → Tạo bảng → Chèn dữ liệu → Truy vấn (vào DataFrame) → Đóng kết nối.
 
-
+[![Theo dấu SQLite từ connect đến close](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/Theo%20d%E1%BA%A5u%20SQLite%20t%E1%BB%AB%20connect%20%C4%91%E1%BA%BFn%20close.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/Theo%20d%E1%BA%A5u%20SQLite%20t%E1%BB%AB%20connect%20%C4%91%E1%BA%BFn%20close.excalidraw.md)
 
 Ví dụ (tr. 106): CSDL `mydata.sqlite`, bảng `test` gồm `a VARCHAR(20)`, `b VARCHAR(20)`, `c REAL` (số thực), `d INTEGER` (số nguyên).
 
@@ -346,7 +346,7 @@ Ví dụ (tr. 106): CSDL `mydata.sqlite`, bảng `test` gồm `a VARCHAR(20)`, `
 
 Giải thích theo slide (tr. 109, tr. 111, tr. 113):
 
-
+[![C4 03 Web API XML và SQLite – bảng 3](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lệnh | Vai trò |
@@ -384,7 +384,7 @@ Nguồn tr. 116–118.
 
 Bộ công cụ SQL **mã nguồn mở** và **ORM** (Object-Relational Mapper) cho Python: thao tác CSDL bằng **lớp và đối tượng Python** thay vì viết SQL trực tiếp.
 
-
+[![C4 03 Web API XML và SQLite – bảng 4](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | SQL thuần | ORM SQLAlchemy |
@@ -410,7 +410,7 @@ mindmap
 
 **Hai thành phần** (tr. 118):
 
-
+[![C4 03 Web API XML và SQLite – bảng 5](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2003%20Web%20API%20XML%20v%C3%A0%20SQLite%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thành phần | Cấp | Vai trò |
@@ -443,6 +443,6 @@ Ví dụ chạy được: [Thực hành SQLAlchemy](Th%E1%BB%B1c%20h%C3%A0nh%20E
 > **question** 7. `requests.get(url).status_code` bằng 404 nghĩa là gì?
 > Không tìm thấy tài nguyên. Chỉ 200 là thành công.
 
-**Áp dụng ở.** F405 Lấy dữ liệu web – HTML, XML và API · F406 SQLite và truy vấn SQL · F407 Đường dẫn và quản lý tệp · bài mẫu Đọc nhiều bảng HTML, SQLite truy vấn và giao dịch.
+**Áp dụng ở.** F405 Lấy dữ liệu web – HTML, XML và API · F406 SQLite và truy vấn SQL · F407 Đường dẫn và quản lý tệp · bài mẫu [Đọc nhiều bảng HTML](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch%C6%B0%C6%A1ng%204%20-%20%C4%90%E1%BB%8Dc%20nhi%E1%BB%81u%20b%E1%BA%A3ng%20HTML.md), [SQLite truy vấn và giao dịch](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch%C6%B0%C6%A1ng%204%20-%20SQLite%20truy%20v%E1%BA%A5n%20v%C3%A0%20giao%20d%E1%BB%8Bch.md).
 
-Trước: [02 JSON và Excel](02%20JSON%20v%C3%A0%20Excel.md) · Tiếp: [04 Công thức và cú pháp](04%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p.md) · Mục lục chương 4
+Trước: [02 JSON và Excel](02%20JSON%20v%C3%A0%20Excel.md) · Tiếp: [04 Công thức và cú pháp](04%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p.md) · [Mục lục chương 4](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

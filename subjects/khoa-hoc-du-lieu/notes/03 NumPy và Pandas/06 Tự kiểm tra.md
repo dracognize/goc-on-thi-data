@@ -39,4 +39,4 @@
 > **question** 12. `pd.Index(["a", "b"])[0] = "z"` báo gì?
 > TypeError, vì Index bất biến. Xem [Index bất biến](04%20Index%20v%C3%A0%20c%C4%83n%20ch%E1%BB%89nh%20Pandas.md).
 
-Đạt khi đúng ít nhất 10/12 và tự diễn giải được chữ axis trong câu 2. Quay lại Mục lục Chương 03.
+Đạt khi đúng ít nhất 10/12 và tự diễn giải được chữ axis trong câu 2. Quay lại [Mục lục Chương 03](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).

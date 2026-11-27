@@ -10,7 +10,7 @@
 
 Một **quan sát** là một đối tượng hoặc sự kiện được ghi nhận. **Thuộc tính** là thông tin về đối tượng đó. **Mô hình** là quy tắc nhận thông tin đầu vào và cho kết quả. Ví dụ shop đang cân nhắc gọi lại cho A và B ở ngày 01/03.
 
-
+[![C1 01 Chu trình khoa học dữ liệu – bảng 1](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Khách | Số đơn trước 01/03 | Có mua trong 30 ngày sau 01/03 |
@@ -31,7 +31,7 @@ Nguồn tr. 5, tr. 6.
 
 Vì sao cần KHDL? Slide nêu 3 lý do:
 
-
+[![C1 01 Chu trình khoa học dữ liệu – bảng 2](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lý do | Ý chính |
@@ -62,7 +62,7 @@ mindmap
       Biết câu hỏi thực sự của doanh nghiệp
 ```
 
-
+[![C1 01 Chu trình khoa học dữ liệu – bảng 3](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Trụ cột | Vai trò chính | Nội dung cốt lõi |
@@ -90,7 +90,7 @@ flowchart LR
     B7 -. "dữ liệu mới, hiệu suất giảm" .-> B1
 ```
 
-
+[![C1 01 Chu trình khoa học dữ liệu – bảng 4](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Bước | Việc chính theo slide |
@@ -103,7 +103,7 @@ flowchart LR
 > | 6. Đánh giá mô hình | Chỉ số accuracy, precision, recall, F1, AUC… So sánh mô hình; xét **tính khả giải, ổn định, ý nghĩa thực tiễn**. |
 > | 7. Triển khai & giám sát | Đưa vào web, ứng dụng, dashboard, báo cáo động. Theo dõi hiệu suất, **cập nhật** khi có dữ liệu mới hoặc hiệu suất giảm. |
 
-
+[![C1 Bảy bước chu trình và đầu ra](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20B%E1%BA%A3y%20b%C6%B0%E1%BB%9Bc%20chu%20tr%C3%ACnh%20v%C3%A0%20%C4%91%E1%BA%A7u%20ra.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20B%E1%BA%A3y%20b%C6%B0%E1%BB%9Bc%20chu%20tr%C3%ACnh%20v%C3%A0%20%C4%91%E1%BA%A7u%20ra.excalidraw.md)
 
 > **warning** Dễ nhầm
 > - **Khai phá (bước 3) đứng trước Xử lý (bước 4)** trong chu trình 7 bước của slide. Khai phá để *hiểu* dữ liệu và thấy lỗi; xử lý để *sửa*.
@@ -141,7 +141,7 @@ Ba đặc điểm (tr. 19):
 2. Mô hình không chỉ chính xác mà phải **minh bạch, dễ giải thích**, phù hợp lý thuyết kinh tế – quản trị.
 3. Mục tiêu là **hiệu quả kinh tế**, tối ưu vận hành, quản trị rủi ro, không chỉ "chính xác kỹ thuật".
 
-
+[![C1 01 Chu trình khoa học dữ liệu – bảng 5](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Bước | KHDL thông thường | KHDL trong Kinh tế & Kinh doanh |
@@ -178,7 +178,7 @@ Nguồn bảng tr. 20.
 
 Nguồn tr. 24, tr. 25.
 
-
+[![C1 01 Chu trình khoa học dữ liệu – bảng 6](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2001%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lĩnh vực | Vai trò chính | Bước của chu trình |

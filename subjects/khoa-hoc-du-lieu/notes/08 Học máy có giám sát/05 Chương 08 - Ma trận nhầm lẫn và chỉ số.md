@@ -10,7 +10,7 @@
 
 Nguồn: tr. 15, tr. 100
 
-
+[![C8 05 Chương 08 - Ma trận nhầm lẫn và chỉ s – bảng 1](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Chỉ số | Công thức | Đọc |
@@ -68,7 +68,7 @@ Nguồn: tr. 103, tr. 104
 
 Bảng cho thấy chi tiết dự đoán đúng và sai. Lớp dương = "Bệnh".
 
-
+[![C8 05 Chương 08 - Ma trận nhầm lẫn và chỉ s – bảng 2](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ô | Dự đoán | Thực tế | Ý nghĩa |
@@ -82,7 +82,7 @@ Cách đọc tên: chữ thứ hai (P/N) = **mô hình dự đoán gì**; chữ 
 
 Hình tr. 104 (ví dụ mèo/chó, lớp dương = mèo) xếp **hàng = thực tế, cột = dự đoán, lớp dương đứng trước**:
 
-
+[![C8 05 Chương 08 - Ma trận nhầm lẫn và chỉ s – bảng 3](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thực tế \ Dự đoán | Dương (mèo) | Âm (không mèo) |
@@ -90,7 +90,7 @@ Hình tr. 104 (ví dụ mèo/chó, lớp dương = mèo) xếp **hàng = thực 
 > | **Dương (mèo)** | TP "Đây là mèo" | FN "Không phải mèo" – Type 2 error |
 > | **Âm (không mèo)** | FP "Đây là mèo" – Type 1 error | TN "Không phải mèo" |
 
-
+[![Ma trận nhầm lẫn và bốn chỉ số](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20b%E1%BB%91n%20ch%E1%BB%89%20s%E1%BB%91.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20b%E1%BB%91n%20ch%E1%BB%89%20s%E1%BB%91.excalidraw.md)
 
 > **warning** Dễ nhầm: bố cục slide khác bố cục sklearn
 > **`confusion_matrix(y_true, y_pred)`** của sklearn cũng để **hàng = thật, cột = dự đoán**, nhưng sắp nhãn **tăng dần** (0 rồi 1) nên ô **dương đứng sau**:
@@ -115,7 +115,7 @@ Hình tr. 104 (ví dụ mèo/chó, lớp dương = mèo) xếp **hàng = thực 
 
 Nguồn: tr. 105
 
-
+[![C8 05 Chương 08 - Ma trận nhầm lẫn và chỉ s – bảng 4](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2005%20Ch%C6%B0%C6%A1ng%2008%20-%20Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20ch%E1%BB%89%20s%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Chỉ số | Công thức | Câu hỏi nó trả lời | Giúp giảm |
@@ -202,4 +202,4 @@ flowchart TD
     C -- So nhiều ngưỡng --> AUC[ROC–AUC]
 ```
 
-**Áp dụng ở:** F809 Ma trận nhầm lẫn và metric, F804 Sai số hồi quy, F806 Logistic và ngưỡng. Bài mẫu: Ma trận nhầm lẫn và metric, Sai số hồi quy.
+**Áp dụng ở:** F809 Ma trận nhầm lẫn và metric, F804 Sai số hồi quy, F806 Logistic và ngưỡng. Bài mẫu: [Ma trận nhầm lẫn và metric](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ma%20tr%E1%BA%ADn%20nh%E1%BA%A7m%20l%E1%BA%ABn%20v%C3%A0%20metric.md), [Sai số hồi quy](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Sai%20s%E1%BB%91%20h%E1%BB%93i%20quy.md).

@@ -19,13 +19,13 @@ flowchart LR
     I --> J[Kiểm tra shape, dtypes, isna]
 ```
 
-
+[![Chọn tham số read_csv](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/Ch%E1%BB%8Dn%20tham%20s%E1%BB%91%20read_csv.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/Ch%E1%BB%8Dn%20tham%20s%E1%BB%91%20read_csv.excalidraw.md)
 
 ## 1. CSV khác Excel thế nào
 
 Nguồn tr. 7, tr. 8.
 
-
+[![C4 01 CSV và schema – bảng 1](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2001%20CSV%20v%C3%A0%20schema%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2001%20CSV%20v%C3%A0%20schema%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tiêu chí | Tệp CSV | Tệp Excel |
@@ -210,7 +210,7 @@ Kết quả là **MultiIndex** (xem thêm [MultiIndex](../06%20Gh%C3%A9p%20v%C3%
 
 Nguồn tr. 20–22.
 
-
+[![C4 01 CSV và schema – bảng 2](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2001%20CSV%20v%C3%A0%20schema%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%2001%20CSV%20v%C3%A0%20schema%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lợi ích | Giải thích | Ví dụ |
@@ -418,6 +418,6 @@ Cặp nháy kép bao `"đạt; đã xem"` nên dấu `;` bên trong không tách
 > **question** 7. Số `1.234,5` (kiểu châu Âu) đọc thành 1234.5 cần gì?
 > *`thousands=".", decimal=","`*.
 
-**Áp dụng ở.** F401 Đọc CSV với read_csv · bài mẫu CSV tham số và kiểm tra kiểu · sau đó [Thiếu và trùng](../05%20L%C3%A0m%20s%E1%BA%A1ch/01%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.md) và [Merge concat và combine_first](../06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/03%20Merge%20concat%20v%C3%A0%20combine_first.md).
+**Áp dụng ở.** F401 Đọc CSV với read_csv · bài mẫu [CSV tham số và kiểm tra kiểu](../09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch%C6%B0%C6%A1ng%204%20-%20CSV%20tham%20s%E1%BB%91%20v%C3%A0%20ki%E1%BB%83m%20tra%20ki%E1%BB%83u.md) · sau đó [Thiếu và trùng](../05%20L%C3%A0m%20s%E1%BA%A1ch/01%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.md) và [Merge concat và combine_first](../06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/03%20Merge%20concat%20v%C3%A0%20combine_first.md).
 
-Tiếp theo: [Ghi CSV với to_csv](Ghi%20CSV%20v%E1%BB%9Bi%20to_csv.md) · Mục lục chương 4
+Tiếp theo: [Ghi CSV với to_csv](Ghi%20CSV%20v%E1%BB%9Bi%20to_csv.md) · [Mục lục chương 4](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

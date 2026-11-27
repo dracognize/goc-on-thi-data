@@ -160,7 +160,7 @@ Nguồn: tr. 39, tr. 40, tr. 41, tr. 42, tr. 43, tr. 44, tr. 45
 
 $$\text{MSE}_{\text{sau chia}}=\frac{n_{\text{trái}}}{n_{\text{tổng}}}\text{MSE}_{\text{trái}}+\frac{n_{\text{phải}}}{n_{\text{tổng}}}\text{MSE}_{\text{phải}}$$
 
-
+[![C8 03 Chương 08 - Hồi quy và KNN – bảng 1](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2003%20Ch%C6%B0%C6%A1ng%2008%20-%20H%E1%BB%93i%20quy%20v%C3%A0%20KNN%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2003%20Ch%C6%B0%C6%A1ng%2008%20-%20H%E1%BB%93i%20quy%20v%C3%A0%20KNN%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ngưỡng (<) | MSE trái | MSE phải | MSE sau chia |
@@ -175,7 +175,7 @@ $$\text{MSE}_{\text{sau chia}}=\frac{n_{\text{trái}}}{n_{\text{tổng}}}\text{M
 
 → Chọn **Kinh nghiệm < 4.5** (MSE giảm từ 71.23 xuống 15.40). Kiểm tra dòng thắng: $\frac58\times21.84+\frac38\times4.67=13.65+1.75=15.40$.
 
-
+[![Cây hồi quy chọn ngưỡng 4.5](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/C%C3%A2y%20h%E1%BB%93i%20quy%20ch%E1%BB%8Dn%20ng%C6%B0%E1%BB%A1ng%204.5.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/C%C3%A2y%20h%E1%BB%93i%20quy%20ch%E1%BB%8Dn%20ng%C6%B0%E1%BB%A1ng%204.5.excalidraw.md)
 
 > **warning** Số liệu trong bảng slide
 > Tính lại bằng numpy/sklearn: MSE gốc chính xác là **70.98** (sklearn in `squared_error = 70.98`), và các dòng 1.25, 2.0, 2.75, 5.25, 5.75 của slide lệch vài đơn vị (ví dụ ngưỡng 1.25 đúng ra 56.12 / 49.11). Dòng **4.5 (21.84; 4.67; 15.40)** và dòng 3.5 khớp, nên **kết luận chọn 4.5 vẫn đúng**. Khi thi, làm theo công thức; nếu đề chép số slide thì chọn theo số slide.
@@ -254,7 +254,7 @@ RMSE: 12.0208               RMSE: 9.1924
 
 Nguồn: tr. 54, tr. 55
 
-
+[![C8 03 Chương 08 - Hồi quy và KNN – bảng 2](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2003%20Ch%C6%B0%C6%A1ng%2008%20-%20H%E1%BB%93i%20quy%20v%C3%A0%20KNN%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%2003%20Ch%C6%B0%C6%A1ng%2008%20-%20H%E1%BB%93i%20quy%20v%C3%A0%20KNN%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mô hình | RMSE (slide) |
@@ -279,7 +279,7 @@ for i, v in enumerate(rmses):
 plt.savefig('ml_image7.png')
 ```
 
-
+[![Bốn mô hình dự đoán x bằng 7](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BB%91n%20m%C3%B4%20h%C3%ACnh%20d%E1%BB%B1%20%C4%91o%C3%A1n%20x%20b%E1%BA%B1ng%207.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BB%91n%20m%C3%B4%20h%C3%ACnh%20d%E1%BB%B1%20%C4%91o%C3%A1n%20x%20b%E1%BA%B1ng%207.excalidraw.md)
 
 > **tip** Mẹo thi
 > Ba mô hình KNN, cây, rừng **cùng ra 37** vì đều lấy trung bình của nhóm điểm {5; 5.5; 6} (lương 35, 36, 40). Đây là lý do RMSE trùng nhau.

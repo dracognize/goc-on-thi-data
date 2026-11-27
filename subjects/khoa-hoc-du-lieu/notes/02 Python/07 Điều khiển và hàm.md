@@ -127,7 +127,7 @@ for biến_chạy in range(n, m+1, step):
 
 **`range(start, end, step)`**: dãy số từ *`start`*, **dừng trước `end`**, bước *`step`*; mặc định *`start=0`*, *`step=1`*.
 
-
+[![C2 07 Điều khiển và hàm – bảng 1](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2007%20%C4%90i%E1%BB%81u%20khi%E1%BB%83n%20v%C3%A0%20h%C3%A0m%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2007%20%C4%90i%E1%BB%81u%20khi%E1%BB%83n%20v%C3%A0%20h%C3%A0m%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lời gọi | Dãy sinh ra |
@@ -215,7 +215,7 @@ else:
 # 0 1 2   (không in Finally finished!)
 ```
 
-
+[![Luồng break continue else](../../diagrams/02%20Python/Lu%E1%BB%93ng%20break%20continue%20else.excalidraw.svg)](../../diagrams/02%20Python/Lu%E1%BB%93ng%20break%20continue%20else.excalidraw.md)
 
 ### 2.5 for lồng nhau
 
@@ -285,7 +285,7 @@ while i < 6:
 # 1 2 3 4 5
 ```
 
-
+[![C2 07 Điều khiển và hàm – bảng 2](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2007%20%C4%90i%E1%BB%81u%20khi%E1%BB%83n%20v%C3%A0%20h%C3%A0m%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2007%20%C4%90i%E1%BB%81u%20khi%E1%BB%83n%20v%C3%A0%20h%C3%A0m%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lượt | i trước kiểm tra | `i < 6` | In | i sau `+= 1` |
@@ -483,7 +483,7 @@ sum_numbers = lambda a, b: a + b
 print(sum_numbers(3, 7))    # 10
 ```
 
-
+[![C2 07 Điều khiển và hàm – bảng 3](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2007%20%C4%90i%E1%BB%81u%20khi%E1%BB%83n%20v%C3%A0%20h%C3%A0m%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2007%20%C4%90i%E1%BB%81u%20khi%E1%BB%83n%20v%C3%A0%20h%C3%A0m%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | `def` | `lambda` |

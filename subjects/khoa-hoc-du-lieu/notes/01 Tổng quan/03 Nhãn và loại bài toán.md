@@ -10,7 +10,7 @@
 
 Nguồn tr. 87, tr. 88.
 
-
+[![C1 03 Nhãn và loại bài toán – bảng 1](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2003%20Nh%C3%A3n%20v%C3%A0%20lo%E1%BA%A1i%20b%C3%A0i%20to%C3%A1n%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2003%20Nh%C3%A3n%20v%C3%A0%20lo%E1%BA%A1i%20b%C3%A0i%20to%C3%A1n%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | Hệ thống luật (rule-based) | Học máy |
@@ -25,7 +25,7 @@ Nguồn tr. 87, tr. 88.
 
 Nguồn tr. 89.
 
-
+[![C1 03 Nhãn và loại bài toán – bảng 2](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2003%20Nh%C3%A3n%20v%C3%A0%20lo%E1%BA%A1i%20b%C3%A0i%20to%C3%A1n%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2003%20Nh%C3%A3n%20v%C3%A0%20lo%E1%BA%A1i%20b%C3%A0i%20to%C3%A1n%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại | Mô tả | Ví dụ slide |
@@ -34,7 +34,7 @@ Nguồn tr. 89.
 > | **Không giám sát** (Unsupervised) | Dữ liệu **không nhãn**; tìm **cấu trúc ẩn** | Phân nhóm khách hàng, phát hiện gian lận |
 > | **Tăng cường** (Reinforcement) | Học qua **tương tác với môi trường**, tối đa hóa **phần thưởng** | Robot học di chuyển, hệ thống đề xuất, quảng cáo tự tối ưu |
 
-
+[![C1 Chọn loại bài toán học máy](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20Ch%E1%BB%8Dn%20lo%E1%BA%A1i%20b%C3%A0i%20to%C3%A1n%20h%E1%BB%8Dc%20m%C3%A1y.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20Ch%E1%BB%8Dn%20lo%E1%BA%A1i%20b%C3%A0i%20to%C3%A1n%20h%E1%BB%8Dc%20m%C3%A1y.excalidraw.md)
 
 **Huấn luyện** là dùng ví dụ đã có để xây quy tắc. **Đặc trưng** (biến giải thích, $X$) là thông tin dùng để dự đoán; **nhãn** (biến mục tiêu, $y$) là đáp án đã biết. Học có giám sát ước lượng hàm $f$ sao cho $y \approx f(X)$.
 

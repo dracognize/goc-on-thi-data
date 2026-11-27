@@ -22,7 +22,7 @@ Nguồn tr. 111.
 
 **`pandas.DataFrame(data, index, columns, dtype, copy)`**
 
-
+[![C3 11 DataFrame tạo, truy xuất và cập nhật – bảng 1](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -99,7 +99,7 @@ print(pd.DataFrame(data2))
 
 Nguồn tr. 119.
 
-
+[![C3 11 DataFrame tạo, truy xuất và cập nhật – bảng 2](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại *`data`* | Ghi chú |
@@ -181,7 +181,7 @@ print(df.loc[df["Điểm"] > 8, "Tên"])   # sv1 An, sv3 Cường   lọc hàng 
 | `df.loc[:, "col"]` | cột theo nhãn | Series / DataFrame |
 | `df.loc[điều_kiện, "col"]` | lọc theo giá trị | Series |
 
-
+[![Chọn loc hay iloc](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/Ch%E1%BB%8Dn%20loc%20hay%20iloc.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/Ch%E1%BB%8Dn%20loc%20hay%20iloc.excalidraw.md)
 
 > **warning** Dễ nhầm
 > `df["Tên"]` (một ngoặc) → Series. `df"Tên"` (hai ngoặc) → DataFrame một cột. **`df.Tuổi`** chỉ dùng được khi tên cột là định danh hợp lệ (không dấu cách, không trùng phương thức như **`count`**).
@@ -224,7 +224,7 @@ print(df)
 # 2  Cường    20   9.0
 ```
 
-
+[![C3 11 DataFrame tạo, truy xuất và cập nhật – bảng 3](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Công cụ | Chọn bằng | Phạm vi |
@@ -238,7 +238,7 @@ print(df)
 
 Nguồn tr. 137, tr. 138, tr. 139.
 
-
+[![C3 11 DataFrame tạo, truy xuất và cập nhật – bảng 4](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2011%20DataFrame%20t%E1%BA%A1o%2C%20truy%20xu%E1%BA%A5t%20v%C3%A0%20c%E1%BA%ADp%20nh%E1%BA%ADt%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại dữ liệu gán | Yêu cầu | Đặc điểm |

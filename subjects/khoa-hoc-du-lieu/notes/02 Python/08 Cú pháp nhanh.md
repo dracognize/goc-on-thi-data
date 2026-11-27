@@ -31,4 +31,4 @@
 | Hàm | `def f(a, b=2): return a*b` | Không return → `None` | tr. 170 |
 | Hàm ngắn | `lambda x: x**2` | Thân là một biểu thức | tr. 176 |
 
-Quay lại Mục lục chương 2.
+Quay lại [Mục lục chương 2](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).

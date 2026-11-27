@@ -13,7 +13,7 @@ Nguồn tr. 34.
 DataFrame.to_csv(path_or_buf=None, sep=',', index=True, encoding=None, ...)
 ```
 
-
+[![C4 Ghi CSV với to_csv – bảng 1](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%20Ghi%20CSV%20v%E1%BB%9Bi%20to_csv%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C4%20Ghi%20CSV%20v%E1%BB%9Bi%20to_csv%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Mô tả | Mặc định |
@@ -138,4 +138,4 @@ print(again["id"].tolist())  # ['001', '002']
 
 **Áp dụng ở.** F402 Ghi tệp – to_csv, to_excel.
 
-Trước: [01 CSV và schema](01%20CSV%20v%C3%A0%20schema.md) · Tiếp: [02 JSON và Excel](02%20JSON%20v%C3%A0%20Excel.md) · Mục lục chương 4
+Trước: [01 CSV và schema](01%20CSV%20v%C3%A0%20schema.md) · Tiếp: [02 JSON và Excel](02%20JSON%20v%C3%A0%20Excel.md) · [Mục lục chương 4](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

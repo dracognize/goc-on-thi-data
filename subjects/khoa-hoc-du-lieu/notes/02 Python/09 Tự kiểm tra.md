@@ -47,4 +47,4 @@ Với mỗi câu, ghi kết quả và lý do trước khi mở đáp án.
 > **question** 15. `60 >> 2` và `~60`?
 > `15` và `-61` (tr. 21).
 
-Đạt khi đúng ít nhất 12/15, giải thích được câu 7–9 và 13 và tự sửa một đoạn code nhầm giữa phép sửa tại chỗ và giá trị trả về. Quay lại Mục lục Chương 02.
+Đạt khi đúng ít nhất 12/15, giải thích được câu 7–9 và 13 và tự sửa một đoạn code nhầm giữa phép sửa tại chỗ và giá trị trả về. Quay lại [Mục lục Chương 02](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md).

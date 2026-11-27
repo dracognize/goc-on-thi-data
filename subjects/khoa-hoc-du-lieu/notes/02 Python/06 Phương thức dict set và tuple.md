@@ -9,7 +9,7 @@
 > | Sửa được | **Không** (list chỉ đọc) | Thêm/xóa được, không sửa item | Có |
 > | Tạo bằng hàm | **`tuple()`** | **`set()`** | **`dict()`** |
 
-
+[![Chọn kiểu dữ liệu](../../diagrams/02%20Python/Ch%E1%BB%8Dn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.svg)](../../diagrams/02%20Python/Ch%E1%BB%8Dn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.md)
 
 ## Tuple
 
@@ -82,7 +82,7 @@ flowchart LR
   L2 -->|"tuple(l)"| T2["tuple mới"]
 ```
 
-
+[![C2 06 Phương thức dict set và tuple – bảng 1](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Muốn | Cách trong slide | Kết quả |
@@ -160,7 +160,7 @@ set3.update(set4)                   # 6 phần tử
 
 Nguồn tr. 106 → tr. 108.
 
-
+[![C2 06 Phương thức dict set và tuple – bảng 2](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách | Khi item không tồn tại | Trả về |
@@ -184,7 +184,7 @@ thisset.clear()
 print(thisset)  # set()
 ```
 
-
+[![Xóa phần tử trong list set dict](../../diagrams/02%20Python/X%C3%B3a%20ph%E1%BA%A7n%20t%E1%BB%AD%20trong%20list%20set%20dict.excalidraw.svg)](../../diagrams/02%20Python/X%C3%B3a%20ph%E1%BA%A7n%20t%E1%BB%AD%20trong%20list%20set%20dict.excalidraw.md)
 
 ### 8. Phép toán tập hợp
 
@@ -289,7 +289,7 @@ print(dictb)   # {'brand': 'Ford', 'model': 'Mustang', 'year': 2020, 'color': 'r
 
 Nguồn tr. 124 → tr. 126.
 
-
+[![C2 06 Phương thức dict set và tuple – bảng 3](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cách | Làm gì | Ví dụ → `dictb` sau đó |
@@ -331,7 +331,7 @@ print(myfamily["child2"]["name"])   # Tobias
 
 Nguồn tr. 130 → tr. 132.
 
-
+[![C2 06 Phương thức dict set và tuple – bảng 4](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàm | Ý nghĩa |
@@ -362,7 +362,7 @@ print(sorted(dictb, reverse=True))   # ['year', 'model', 'color', 'brand']
 
 Nguồn tr. 133 → tr. 137.
 
-
+[![C2 06 Phương thức dict set và tuple – bảng 5](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2006%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Làm gì |

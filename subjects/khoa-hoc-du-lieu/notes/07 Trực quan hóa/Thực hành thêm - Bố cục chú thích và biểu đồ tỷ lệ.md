@@ -61,7 +61,7 @@ assert counts.loc["Thứ Bảy"].tolist() == [1, 1]
 assert proportions.sum(axis=1).round(8).eq(1).all()
 ```
 
-
+[![C7 Thực hành thêm - Bố cục chú thích và biể – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20B%E1%BB%91%20c%E1%BB%A5c%20ch%C3%BA%20th%C3%ADch%20v%C3%A0%20bi%E1%BB%83%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20B%E1%BB%91%20c%E1%BB%A5c%20ch%C3%BA%20th%C3%ADch%20v%C3%A0%20bi%E1%BB%83%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nhóm | Số bàn 2 khách | Số bàn 4 khách | Tỷ lệ 2 khách | Tỷ lệ 4 khách |
@@ -85,4 +85,4 @@ chart.set_axis_labels("Ngày", "Tỷ lệ tiền boa")
 plt.show()
 ```
 
-Màu qua *`hue`* chia nhóm trong cùng ô. *`col`* hoặc *`row`* chia thành các ô. Khi dùng *`kind="bar"`*, đọc phép tổng hợp và chú thích bất định. Khi dùng *`kind="box"`*, đọc phân phối thay cho một giá trị tóm tắt. Lec 7 · catplot và nhóm phân loại · Về mục lục Lec 7
+Màu qua *`hue`* chia nhóm trong cùng ô. *`col`* hoặc *`row`* chia thành các ô. Khi dùng *`kind="bar"`*, đọc phép tổng hợp và chú thích bất định. Khi dùng *`kind="box"`*, đọc phân phối thay cho một giá trị tóm tắt. Lec 7 · catplot và nhóm phân loại · [Về mục lục Lec 7](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

@@ -19,7 +19,7 @@ Nguồn tr. 59, tr. 60.
 
 Nguồn tr. 61.
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 1](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tiêu chí | Phân tích dữ liệu | Khoa học dữ liệu |
@@ -46,7 +46,7 @@ flowchart LR
     D -. "câu hỏi mới" .-> A
 ```
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 2](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Bước | Mô tả | Ví dụ TMĐT/nhà hàng |
@@ -64,7 +64,7 @@ Nguồn tr. 65–tr. 69.
 
 **Mục tiêu → dữ liệu.** Hỏi trước, chọn dữ liệu sau.
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 3](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mục tiêu | Dữ liệu cần |
@@ -75,7 +75,7 @@ Nguồn tr. 65–tr. 69.
 
 **Kế hoạch thu thập**: *thời điểm* (ngày, tuần, thời gian thực?); *khối lượng* (100, 1000 hay 1 triệu bản ghi?); *xử lý rủi ro* (thiếu, sai, mất thì sao?).
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 4](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại nguồn | Gồm | Ví dụ |
@@ -84,7 +84,7 @@ Nguồn tr. 65–tr. 69.
 > | **Thứ cấp** (có sẵn) | Thống kê chính thức, báo cáo ngành, tài liệu học thuật | GDP từ Tổng cục Thống kê, dân số từ UN |
 > | **Bên thứ ba** | Mua từ nhà cung cấp, sàn dữ liệu | Nielsen, Google Trends, dữ liệu sàn TMĐT |
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 5](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Công cụ thu thập | Công dụng |
@@ -116,7 +116,7 @@ flowchart LR
 
 **Khai phá (Data Exploration)** — hiểu dữ liệu trước khi phân tích sâu (tr. 71):
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 6](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tác vụ | Công cụ hình |
@@ -135,7 +135,7 @@ Công cụ: Python (pandas, seaborn, matplotlib, pandas-profiling); R (dplyr, sk
 
 **Công cụ – Python là trung tâm** (tr. 75):
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 7](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Công cụ | Mục đích |
@@ -167,7 +167,7 @@ Thay thế/bổ sung: Excel/Google Sheets (bảng nhỏ, thủ công); SQL (tr�
 
 Nguồn tr. 76–tr. 80.
 
-
+[![C1 07 Quy trình phân tích dữ liệu – bảng 8](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C1%2007%20Quy%20tr%C3%ACnh%20ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20%E2%80%93%20b%E1%BA%A3ng%208.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Cấp độ | Câu hỏi | Mục tiêu | Kỹ thuật | Ví dụ slide |
@@ -177,7 +177,7 @@ Nguồn tr. 76–tr. 80.
 > | **Dự báo** (Predictive) | Điều gì **có thể** xảy ra? | Dự đoán tương lai từ lịch sử | Hồi quy, cây quyết định, random forest, boosting, neural networks | Doanh thu, nhu cầu, rủi ro tín dụng; doanh thu với ngân sách quảng cáo cố định |
 > | **Định hướng hành động** (Prescriptive) | Chúng ta **nên làm gì**? | Tối ưu hành động, đề xuất quyết định | **Tối ưu hóa**, mô hình kịch bản, mô phỏng rủi ro | Phân bổ ngân sách marketing tối đa lợi nhuận; tối ưu lộ trình giao hàng |
 
-
+[![C1 Bốn cấp độ phân tích](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20B%E1%BB%91n%20c%E1%BA%A5p%20%C4%91%E1%BB%99%20ph%C3%A2n%20t%C3%ADch.excalidraw.svg)](../../diagrams/01%20T%E1%BB%95ng%20quan/C1%20B%E1%BB%91n%20c%E1%BA%A5p%20%C4%91%E1%BB%99%20ph%C3%A2n%20t%C3%ADch.excalidraw.md)
 
 > **warning** Dễ nhầm
 > - **Phân cụm** được slide đặt ở cấp **mô tả** (tóm tắt nhóm đã có), không phải dự báo.

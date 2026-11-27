@@ -38,7 +38,7 @@ tr. 5 · tr. 6 · tr. 7 · tr. 8
 
 Trực quan hóa là **một phần của khám phá dữ liệu**. Slide nêu các ví dụ dùng:
 
-
+[![C7 06 Chương 07 - Tổng quan và nguyên tắc t – bảng 1](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Mục đích | Ví dụ |
@@ -52,7 +52,7 @@ Trực quan hóa là **một phần của khám phá dữ liệu**. Slide nêu c
 
 **matplotlib** — những ý thi hay hỏi:
 
-
+[![C7 06 Chương 07 - Tổng quan và nguyên tắc t – bảng 2](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Câu hỏi | Đáp án |
@@ -81,7 +81,7 @@ Trong Jupyter, chạy lệnh "phép thuật" (magic command) sau trong một ô 
 
 tr. 10 · tr. 11
 
-
+[![C7 06 Chương 07 - Tổng quan và nguyên tắc t – bảng 3](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | Khám phá (exploration) | Giải thích (explanation) |
@@ -105,7 +105,7 @@ tr. 10 · tr. 11
 
 tr. 13 · tr. 14 · tr. 15
 
-
+[![C7 06 Chương 07 - Tổng quan và nguyên tắc t – bảng 4](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nguyên tắc | Làm gì | Tránh gì |
@@ -123,7 +123,7 @@ flowchart LR
   A["What / When / Where<br/>Mở bối cảnh"] --> B["So what<br/>Phát hiện chính"] --> C["Now what<br/>Gợi ý hành động"]
 ```
 
-
+[![C7 06 Chương 07 - Tổng quan và nguyên tắc t – bảng 5](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Lĩnh vực | Ý nghĩa của biểu đồ |
@@ -168,7 +168,7 @@ Hai cột 100 và 110. Trục y bắt đầu từ 90.
 
 ### Lỗi 3 · Dùng màu sai
 
-
+[![C7 06 Chương 07 - Tổng quan và nguyên tắc t – bảng 6](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C7%2006%20Ch%C6%B0%C6%A1ng%2007%20-%20T%E1%BB%95ng%20quan%20v%C3%A0%20nguy%C3%AAn%20t%E1%BA%AFc%20t%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Loại dữ liệu | Bảng màu | Ví dụ |

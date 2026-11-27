@@ -28,7 +28,7 @@ Nguồn tr. 5, tr. 6, tr. 7.
 - **Tên gọi**: NumPy là viết tắt của *Numerical Python*.
 - **Vai trò**: thư viện nền tảng cho tính toán số. SciPy và Pandas dùng cấu trúc mảng của NumPy làm nền.
 
-
+[![C3 07 Giới thiệu NumPy và ndarray – bảng 1](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2007%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20NumPy%20v%C3%A0%20ndarray%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2007%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20NumPy%20v%C3%A0%20ndarray%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tính năng chính (tr. 6) | Ý nghĩa dễ hiểu |
@@ -38,7 +38,7 @@ Nguồn tr. 5, tr. 6, tr. 7.
 > | Đọc/ghi dữ liệu mảng | Có cả tệp ánh xạ bộ nhớ (memory-mapped files) |
 > | Công cụ toán | Đại số tuyến tính, biến đổi Fourier, sinh số ngẫu nhiên |
 
-
+[![C3 07 Giới thiệu NumPy và ndarray – bảng 2](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2007%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20NumPy%20v%C3%A0%20ndarray%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2007%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20NumPy%20v%C3%A0%20ndarray%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ứng dụng điển hình (tr. 7) | Ví dụ |
@@ -128,7 +128,7 @@ flowchart LR
 
 Hình ở tr. 16: mảng 1D shape `(4,)` chỉ có axis 0; mảng 2D shape `(2, 3)` có axis 0 dọc và axis 1 ngang; mảng 3D shape `(4, 3, 2)` có thêm axis 2 theo chiều sâu.
 
-
+[![Đọc trục của ma trận](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/%C4%90%E1%BB%8Dc%20tr%E1%BB%A5c%20c%E1%BB%A7a%20ma%20tr%E1%BA%ADn.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/%C4%90%E1%BB%8Dc%20tr%E1%BB%A5c%20c%E1%BB%A7a%20ma%20tr%E1%BA%ADn.excalidraw.md)
 
 > **warning** Dễ nhầm
 > Slide tr. 15 có lỗi gõ `[[1, -2, 3], [4, 5, 6]]`. Mảng đúng là `[[1, 2, 3], [4, 5, 6]]`. Số axis luôn bằng `ndim`; axis lớn nhất là `ndim − 1`.

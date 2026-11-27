@@ -26,9 +26,9 @@ Chuỗi là **mảng** các byte biểu diễn ký tự Unicode. `"a"` là chu�
 
 Nguồn tr. 46, tr. 47, tr. 48.
 
+[![Chỉ số dương và âm của chuỗi](../../diagrams/02%20Python/Ch%E1%BB%89%20s%E1%BB%91%20d%C6%B0%C6%A1ng%20v%C3%A0%20%C3%A2m%20c%E1%BB%A7a%20chu%E1%BB%97i.excalidraw.svg)](../../diagrams/02%20Python/Ch%E1%BB%89%20s%E1%BB%91%20d%C6%B0%C6%A1ng%20v%C3%A0%20%C3%A2m%20c%E1%BB%A7a%20chu%E1%BB%97i.excalidraw.md)
 
-
-
+[![C2 05 Phương thức string – bảng 1](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Toán tử | Ý nghĩa | Ví dụ slide → kết quả |
@@ -63,7 +63,7 @@ print(str1 + "TEST") # Hello World!TEST
 
 Nguồn tr. 49, tr. 50.
 
-
+[![C2 05 Phương thức string – bảng 2](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Làm gì | Cú pháp |
@@ -92,7 +92,7 @@ print(string.count("mt", 5, 20)) # 1   · chỉ còn "mt" ở cuối
 
 Nguồn tr. 51, tr. 52.
 
-
+[![C2 05 Phương thức string – bảng 3](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Trả về | Tham số |
@@ -129,7 +129,7 @@ print(txt.splitlines(True))
 
 Nguồn tr. 53 → tr. 56.
 
-
+[![C2 05 Phương thức string – bảng 4](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Tìm | Không thấy |
@@ -175,7 +175,7 @@ flowchart TD
 
 Nguồn tr. 57, tr. 58, tr. 59.
 
-
+[![C2 05 Phương thức string – bảng 5](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | True khi |
@@ -210,7 +210,7 @@ print(txt.isprintable())       # False · có \n
 
 Nguồn tr. 60, tr. 61, tr. 62.
 
-
+[![C2 05 Phương thức string – bảng 6](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phương thức | Làm gì |
@@ -311,7 +311,7 @@ label = " / ".join(parts)
 position = label.find("python")
 ```
 
-
+[![C2 05 Phương thức string – bảng 7](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2005%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20string%20%E2%80%93%20b%E1%BA%A3ng%207.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Bước | Giá trị |

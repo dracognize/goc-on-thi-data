@@ -4,7 +4,7 @@
 
 Dùng số năm kinh nghiệm $x=(1,2,3,4)$ và lương $y=(10,14,30,36)$ triệu. Thử chia theo ngưỡng $x\leq 2{,}5$. Hai nhánh là lá nếu dừng ở độ sâu 1. Mỗi lá dự đoán bằng trung bình của các mẫu huấn luyện đi vào lá đó.
 
-
+[![C8 Thực hành thêm - Tính điểm chia cây và đ – bảng 1](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20T%C3%ADnh%20%C4%91i%E1%BB%83m%20chia%20c%C3%A2y%20v%C3%A0%20%C4%91%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20T%C3%ADnh%20%C4%91i%E1%BB%83m%20chia%20c%C3%A2y%20v%C3%A0%20%C4%91%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Nhánh | Mẫu | Dự đoán | Sai số bình phương từng mẫu |
@@ -59,7 +59,7 @@ Cột xác suất đi theo thứ tự `classes_`. Tìm lớp dương theo nhãn 
 
 ## Điều kiện dừng và chuẩn hóa
 
-
+[![C8 Thực hành thêm - Tính điểm chia cây và đ – bảng 2](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20T%C3%ADnh%20%C4%91i%E1%BB%83m%20chia%20c%C3%A2y%20v%C3%A0%20%C4%91%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C8%20Th%E1%BB%B1c%20h%C3%A0nh%20th%C3%AAm%20-%20T%C3%ADnh%20%C4%91i%E1%BB%83m%20chia%20c%C3%A2y%20v%C3%A0%20%C4%91%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Họ | Việc làm lúc fit | Dừng hoặc kiểm soát phức tạp | Thang đo |
@@ -75,4 +75,4 @@ Ví dụ với KNN, chênh 1 năm kinh nghiệm nhưng chênh 1.000.000 đồng 
 > **question** Nếu tăng số cây từ 5 lên 50, độ sâu từng cây có tự tăng?
 > Không. *`n_estimators`* đổi số cây. *`max_depth`* là thiết lập độ sâu từng cây. Nếu thử nhiều giá trị, dùng validation hoặc cross-validation, rồi đánh giá cuối trên test.
 
-Lec 8 · Điều kiện dừng · Chuẩn hóa dữ liệu · Về mục lục Lec 8
+Lec 8 · Điều kiện dừng · Chuẩn hóa dữ liệu · [Về mục lục Lec 8](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)

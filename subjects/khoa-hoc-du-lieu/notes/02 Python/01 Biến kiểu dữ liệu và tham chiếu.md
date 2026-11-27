@@ -35,7 +35,7 @@ mindmap
 
 Nguồn tr. 4, tr. 5.
 
-
+[![C2 01 Biến kiểu dữ liệu và tham chiếu – bảng 1](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Ý | Nội dung trong slide |
@@ -130,7 +130,7 @@ if 5 > 2:
 print("Five is greater than two!")     # Sai: IndentationError
 ```
 
-
+[![C2 01 Biến kiểu dữ liệu và tham chiếu – bảng 2](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Đoạn mã trong slide | Hợp lệ? | Lý do |
@@ -152,7 +152,7 @@ Biến (variable) là **tên gọi đại diện cho một giá trị**, giống
 - Tên bắt đầu bằng **chữ cái hoặc dấu gạch dưới** `_`, sau đó có thể có chữ số.
 - **Không** dùng từ khóa làm tên biến (`for`, `while`, `class`, `lambda`…).
 
-
+[![C2 01 Biến kiểu dữ liệu và tham chiếu – bảng 3](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tên | Hợp lệ? |
@@ -187,7 +187,7 @@ so_vo = so_vo + 1
 print(so_vo, thanh_tien)  # 4 36000
 ```
 
-
+[![C2 01 Biến kiểu dữ liệu và tham chiếu – bảng 4](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Dòng | Python làm gì | Trạng thái sau dòng |
@@ -232,7 +232,7 @@ Dữ liệu trong bộ nhớ có nhiều loại (tuổi là số, địa chỉ l
 | `{7, 8}` | set | Có (thêm/xóa) | [06 Phương thức dict set và tuple](06%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple.md) |
 | `{"Lan": 7}` | dict | Có | [06 Phương thức dict set và tuple](06%20Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20dict%20set%20v%C3%A0%20tuple.md) |
 
-
+[![Chọn kiểu dữ liệu](../../diagrams/02%20Python/Ch%E1%BB%8Dn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.svg)](../../diagrams/02%20Python/Ch%E1%BB%8Dn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u.excalidraw.md)
 
 ## 5. Kiểu số và kiểu logic
 
@@ -289,7 +289,7 @@ Nguồn tr. 138, tr. 139.
 
 Dùng **tên kiểu làm tên hàm**. Hàm trả về **đối tượng mới** biểu diễn giá trị đã đổi, biến gốc giữ nguyên.
 
-
+[![C2 01 Biến kiểu dữ liệu và tham chiếu – bảng 5](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%205.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàm | Ý nghĩa | Ví dụ → kết quả |
@@ -312,9 +312,9 @@ Nguồn tr. 76, tr. 127.
 
 Tên biến **trỏ tới** đối tượng. Gán tên thứ hai (`b = a`) chia sẻ cùng đối tượng. Gán lại một tên chỉ đổi tham chiếu của tên đó. Sửa tại chỗ (append, `a[0] = …`) làm thay đổi đối tượng mà mọi tên cùng thấy.
 
+[![02 Tham chiếu và sao chép](../../diagrams/02%20Python/02%20Tham%20chi%E1%BA%BFu%20v%C3%A0%20sao%20ch%C3%A9p.excalidraw.svg)](../../diagrams/02%20Python/02%20Tham%20chi%E1%BA%BFu%20v%C3%A0%20sao%20ch%C3%A9p.excalidraw.md)
 
-
-
+[![C2 01 Biến kiểu dữ liệu và tham chiếu – bảng 6](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.svg)](../../diagrams/02%20Python/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C2%2001%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu%20%E2%80%93%20b%E1%BA%A3ng%206.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Kiểu | Thay đổi tại chỗ? | Cách truy cập |

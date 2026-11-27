@@ -32,7 +32,7 @@ Tra nhanh theo mục tiêu. Với mỗi dòng: chọn cột cần xử lý, ki�
 
 ## Scale
 
-
+[![C5 05 Công thức và cú pháp – bảng 1](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2005%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2005%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Scaler | Công thức | Thống kê dùng | Outlier |
@@ -45,7 +45,7 @@ Tra nhanh theo mục tiêu. Với mỗi dòng: chọn cột cần xử lý, ki�
 
 ## Chuỗi và regex
 
-
+[![C5 05 Công thức và cú pháp – bảng 2](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2005%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2005%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tác vụ | Cú pháp | Trả về |
@@ -61,7 +61,7 @@ Tra nhanh theo mục tiêu. Với mỗi dòng: chọn cột cần xử lý, ki�
 
 ## Phân loại và mã hóa
 
-
+[![C5 05 Công thức và cú pháp – bảng 3](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2005%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/05%20L%C3%A0m%20s%E1%BA%A1ch/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C5%2005%20C%C3%B4ng%20th%E1%BB%A9c%20v%C3%A0%20c%C3%BA%20ph%C3%A1p%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tác vụ | Cú pháp | Ghi nhớ |
@@ -79,4 +79,4 @@ Tra nhanh theo mục tiêu. Với mỗi dòng: chọn cột cần xử lý, ki�
 
 **Áp dụng ở** F511 Rời rạc hóa và thay thế giá trị · F510 Kiểu dữ liệu cột.
 
-Mục lục chương 5 · Thẻ nhớ chương 5
+[Mục lục chương 5](00%20M%E1%BB%A5c%20l%E1%BB%A5c.md) · Thẻ nhớ chương 5

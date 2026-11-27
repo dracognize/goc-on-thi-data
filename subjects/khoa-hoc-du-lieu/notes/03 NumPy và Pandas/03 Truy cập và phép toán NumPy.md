@@ -99,7 +99,7 @@ print("Kết quả lọc:", arr[condition]) # Kết quả lọc: [35 41]
 
 ## View hay copy
 
-
+[![View hay copy](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/View%20hay%20copy.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/View%20hay%20copy.excalidraw.md)
 
 > **info** Mở rộng
 > Slide chỉ nói boolean indexing tạo bản sao (tr. 47). Thêm: slice cơ bản tạo **view** (cùng vùng nhớ), sửa view thì mảng gốc đổi theo. Fancy indexing cũng tạo bản sao. Muốn tách hẳn, dùng **`.copy()`**.
@@ -120,7 +120,7 @@ Nguồn tr. 48.
 
 Với `arr1 = [2, 1, 3, 4, 5]`, `arr2 = [1, 3, 4, 5, 6]`:
 
-
+[![C3 03 Truy cập và phép toán NumPy – bảng 1](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Phép | Ví dụ | Kết quả |
@@ -143,7 +143,7 @@ Với `arr1 = [2, 1, 3, 4, 5]`, `arr2 = [1, 3, 4, 5, 6]`:
 
 Nguồn tr. 49.
 
-
+[![C3 03 Truy cập và phép toán NumPy – bảng 2](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Toán tử | `arr1 ? arr2` | Kết quả |
@@ -167,7 +167,7 @@ np.array([2, 1, 3, 4]) > np.array([1, 3, 4, 5, 6])
 
 Nguồn tr. 50.
 
-
+[![C3 03 Truy cập và phép toán NumPy – bảng 3](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Hàm | Tương đương |
@@ -207,7 +207,7 @@ print(x.max(), x.max(axis=0), x.max(axis=1))   # 10 [ 3 10  5] [ 6 10]
 print(x.sum(), x.sum(axis=0), x.sum(axis=1))   # 27 [ 4 16  7] [12 15]
 ```
 
-
+[![C3 03 Truy cập và phép toán NumPy – bảng 4](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2003%20Truy%20c%E1%BA%ADp%20v%C3%A0%20ph%C3%A9p%20to%C3%A1n%20NumPy%20%E2%80%93%20b%E1%BA%A3ng%204.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Gọi | Gộp theo | Shape `(2, 3)` thành | Đọc là |

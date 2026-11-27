@@ -28,7 +28,7 @@ Nguồn tr. 87, tr. 88, tr. 89.
 - Tên gọi đến từ **"panel data"** (thuật ngữ kinh tế lượng: dữ liệu bảng nhiều chiều có cấu trúc) và **"Python data analysis"**.
 - Hai cấu trúc cốt lõi: **Series** (1 chiều có nhãn) và **DataFrame** (2 chiều, hàng và cột có nhãn). Không hợp với mọi thao tác chuyên sâu, nhưng thường là lựa chọn hiệu quả, trực quan.
 
-
+[![C3 10 Giới thiệu Pandas và Series – bảng 1](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2010%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20Pandas%20v%C3%A0%20Series%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2010%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20Pandas%20v%C3%A0%20Series%20%E2%80%93%20b%E1%BA%A3ng%201.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | | NumPy | Pandas |
@@ -48,7 +48,7 @@ Nguồn tr. 90, tr. 91, tr. 92.
 
 **`pd.Series(data=None, index=None, dtype=None, name=None, copy=False)`**
 
-
+[![C3 10 Giới thiệu Pandas và Series – bảng 2](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2010%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20Pandas%20v%C3%A0%20Series%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2010%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20Pandas%20v%C3%A0%20Series%20%E2%80%93%20b%E1%BA%A3ng%202.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Tham số | Ý nghĩa |
@@ -109,7 +109,7 @@ print(pd.Series(5, index=['x', 'y', 'z']))                    # scalar lặp cho
 
 Nguồn tr. 96, tr. 97, tr. 98, tr. 99.
 
-
+[![C3 10 Giới thiệu Pandas và Series – bảng 3](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2010%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20Pandas%20v%C3%A0%20Series%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/B%E1%BA%A3ng%20tr%E1%BB%B1c%20quan/C3%2010%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20Pandas%20v%C3%A0%20Series%20%E2%80%93%20b%E1%BA%A3ng%203.excalidraw.md)
 
 > **note** Bảng dạng chữ
 > | Thuộc tính / phương thức | Mô tả |
@@ -240,7 +240,7 @@ print(s1 + s2)
 # dtype: float64
 ```
 
-
+[![Căn chỉnh Series theo nhãn](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/C%C4%83n%20ch%E1%BB%89nh%20Series%20theo%20nh%C3%A3n.excalidraw.svg)](../../diagrams/03%20NumPy%20v%C3%A0%20Pandas/C%C4%83n%20ch%E1%BB%89nh%20Series%20theo%20nh%C3%A3n.excalidraw.md)
 
 > **tip** Mẹo thi
 > Đếm số NaN của `s1 + s2`: lấy hợp nhãn, trừ đi các nhãn có giá trị hợp lệ ở **cả hai** bên. Ở đây 6 nhãn, 2 nhãn hợp lệ → 4 NaN.
