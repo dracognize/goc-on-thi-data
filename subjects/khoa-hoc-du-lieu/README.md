@@ -4,6 +4,8 @@
 
 ## Ôn theo chương
 
+- [Chương 00 · Kế hoạch ôn đến 05-12](notes/00%20%C4%90i%E1%BB%81u%20h%C6%B0%E1%BB%9Bng/K%E1%BA%BF%20ho%E1%BA%A1ch%20%C3%B4n%20%C4%91%E1%BA%BFn%2005-12.md)
+
 ### 1. Tổng quan khoa học dữ liệu
 
 [Câu hỏi chương 1](cau-hoi/chuong-01.json)
