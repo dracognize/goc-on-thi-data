@@ -1,8 +1,12 @@
 # Khoa học dữ liệu
 
-## Ghi chú theo chương
+[Đề thi cố định](de-thi.json) · [Họ bài](ho-bai.json) · [Sơ đồ Excalidraw](diagrams/README.md)
+
+## Ôn theo chương
 
 ### 1. Tổng quan khoa học dữ liệu
+
+[Câu hỏi chương 1](cau-hoi/chuong-01.json)
 
 - [00 Mục lục](notes/01%20T%E1%BB%95ng%20quan/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 Chu trình khoa học dữ liệu](notes/01%20T%E1%BB%95ng%20quan/01%20Chu%20tr%C3%ACnh%20khoa%20h%E1%BB%8Dc%20d%E1%BB%AF%20li%E1%BB%87u.md)
@@ -19,6 +23,8 @@
 
 ### 2. Python
 
+[Câu hỏi chương 2](cau-hoi/chuong-02.json)
+
 - [00 Mục lục](notes/02%20Python/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 Biến kiểu dữ liệu và tham chiếu](notes/02%20Python/01%20Bi%E1%BA%BFn%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20tham%20chi%E1%BA%BFu.md)
 - [03 Biểu thức và vào ra](notes/02%20Python/03%20Bi%E1%BB%83u%20th%E1%BB%A9c%20v%C3%A0%20v%C3%A0o%20ra.md)
@@ -33,6 +39,8 @@
 - [Ch02 - Trace range vòng lặp và tích lũy](notes/09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch02%20-%20Trace%20range%20v%C3%B2ng%20l%E1%BA%B7p%20v%C3%A0%20t%C3%ADch%20l%C5%A9y.md)
 
 ### 3. NumPy và Pandas
+
+[Câu hỏi chương 3](cau-hoi/chuong-03.json)
 
 - [00 Mục lục](notes/03%20NumPy%20v%C3%A0%20Pandas/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 Shape axis và broadcasting](notes/03%20NumPy%20v%C3%A0%20Pandas/01%20Shape%20axis%20v%C3%A0%20broadcasting.md)
@@ -52,6 +60,8 @@
 
 ### 4. Nhập và lưu trữ
 
+[Câu hỏi chương 4](cau-hoi/chuong-04.json)
+
 - [00 Mục lục](notes/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 CSV và schema](notes/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/01%20CSV%20v%C3%A0%20schema.md)
 - [02 JSON và Excel](notes/04%20Nh%E1%BA%ADp%20v%C3%A0%20l%C6%B0u%20tr%E1%BB%AF/02%20JSON%20v%C3%A0%20Excel.md)
@@ -67,6 +77,8 @@
 
 ### 5. Làm sạch
 
+[Câu hỏi chương 5](cau-hoi/chuong-05.json)
+
 - [00 Mục lục](notes/05%20L%C3%A0m%20s%E1%BA%A1ch/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 Thiếu và trùng](notes/05%20L%C3%A0m%20s%E1%BA%A1ch/01%20Thi%E1%BA%BFu%20v%C3%A0%20tr%C3%B9ng.md)
 - [03 Chuẩn hóa dữ liệu](notes/05%20L%C3%A0m%20s%E1%BA%A1ch/03%20Chu%E1%BA%A9n%20h%C3%B3a%20d%E1%BB%AF%20li%E1%BB%87u.md)
@@ -81,6 +93,8 @@
 
 ### 6. Ghép và biến đổi
 
+[Câu hỏi chương 6](cau-hoi/chuong-06.json)
+
 - [00 Mục lục](notes/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 MultiIndex](notes/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/01%20MultiIndex.md)
 - [03 Merge concat và combine_first](notes/06%20Gh%C3%A9p%20v%C3%A0%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i/03%20Merge%20concat%20v%C3%A0%20combine_first.md)
@@ -94,6 +108,8 @@
 - [Chương 6 - Đổi wide long và tổng hợp ô trùng](notes/09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/Ch%C6%B0%C6%A1ng%206%20-%20%C4%90%E1%BB%95i%20wide%20long%20v%C3%A0%20t%E1%BB%95ng%20h%E1%BB%A3p%20%C3%B4%20tr%C3%B9ng.md)
 
 ### 7. Trực quan hóa
+
+[Câu hỏi chương 7](cau-hoi/chuong-07.json)
 
 - [00 Mục lục](notes/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 Chương 07 - Chọn và đọc biểu đồ](notes/07%20Tr%E1%BB%B1c%20quan%20h%C3%B3a/01%20Ch%C6%B0%C6%A1ng%2007%20-%20Ch%E1%BB%8Dn%20v%C3%A0%20%C4%91%E1%BB%8Dc%20bi%E1%BB%83u%20%C4%91%E1%BB%93.md)
@@ -110,6 +126,8 @@
 - [Đọc quan hệ hai biến](notes/09%20Luy%E1%BB%87n%20theo%20c%E1%BB%A5m/H%E1%BB%8D%20b%C3%A0i/%C4%90%E1%BB%8Dc%20quan%20h%E1%BB%87%20hai%20bi%E1%BA%BFn.md)
 
 ### 8. Học máy có giám sát
+
+[Câu hỏi chương 8](cau-hoi/chuong-08.json)
 
 - [00 Mục lục](notes/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/00%20M%E1%BB%A5c%20l%E1%BB%A5c.md)
 - [01 Chương 08 - Train test và rò rỉ](notes/08%20H%E1%BB%8Dc%20m%C3%A1y%20c%C3%B3%20gi%C3%A1m%20s%C3%A1t/01%20Ch%C6%B0%C6%A1ng%2008%20-%20Train%20test%20v%C3%A0%20r%C3%B2%20r%E1%BB%89.md)
@@ -128,8 +146,3 @@
 ## Sơ đồ Excalidraw
 
 [Danh mục sơ đồ và bản gốc](diagrams/README.md).
-
-## Ngân hàng đề
-
-- [Phiên bản hiện hành](version.txt)
-- [Manifest](manifest.json)
